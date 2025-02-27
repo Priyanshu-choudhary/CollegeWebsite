@@ -27,6 +27,12 @@
   .probootstrap-text {
     flex: 1;
     padding-right: 20px;
+    margin-left: 10px;
+    background-color: #ffe092;
+    border-radius: 5%;
+    padding: 20px;
+    margin-right: 10px;
+    height: 400px;
   }
   
   .probootstrap-text h3 {

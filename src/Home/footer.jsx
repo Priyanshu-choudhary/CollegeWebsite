@@ -2,7 +2,29 @@ import React from 'react';
 
 const Footer = () => {
   return (
+    <div>
+          <section className="probootstrap-cta">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <h2 className="probootstrap-animate" data-animate-effect="fadeInRight">
+                                Get your admission now!
+                            </h2>
+                            <a
+                                href="#"
+                                role="button"
+                                className="btn btn-primary btn-lg btn-ghost probootstrap-animate"
+                                data-animate-effect="fadeInLeft"
+                            >
+                                Enroll
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
     <footer className="footer">
+      
       <div className="footer-container">
         {/* About Section */}
         <div className="footer-section">
@@ -28,8 +50,8 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Contact Us</h3>
           <ul>
-            <li><i className="fas fa-map-marker-alt"></i> 123 College Street, City, Country</li>
-            <li><i className="fas fa-phone"></i> +1-123-456-7890</li>
+            <li><i className="fas fa-map-marker-alt"></i> 123 meerut, India</li>
+            <li><i className="fas fa-phone"></i> +999999999</li>
             <li><i className="fas fa-envelope"></i> info@college.edu</li>
           </ul>
         </div>
@@ -52,6 +74,7 @@ const Footer = () => {
         <p>&copy; {new Date().getFullYear()}Meerut college for girls Education . All Rights Reserved.</p>
       </div>
     </footer>
+    </div>
   );
 };
 

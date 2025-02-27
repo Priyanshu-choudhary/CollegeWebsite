@@ -11,8 +11,8 @@ function Navbar() {
         <div className="container">
           <div className="header-content">
             <div className="contact-info ">
-              <span><i className="fas fa-map-marker-alt"></i> New York, NY 10001, USA</span>
-              <span><i className="fas fa-phone"></i> +1-123-456-7890</span>
+              <span><i className="fas fa-map-marker-alt"></i> 123 meerut, India</span>
+              <span><i className="fas fa-phone"></i> +9999999999</span>
               <span><i className="fas fa-envelope"></i> info@college.edu</span>
             </div>
             <div className="social-icons">

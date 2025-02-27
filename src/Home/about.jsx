@@ -1,5 +1,6 @@
 import React from 'react';
 import './about.css'; // Import the CSS file for styling
+import Stats from './Stats';
 
 const AboutContent = () => {
   return (
@@ -22,15 +23,14 @@ const AboutContent = () => {
             <div className="col-md-12">
               <div className="probootstrap-flex-block">
                 <div className="probootstrap-text probootstrap-animate">
-                  <div className="text-uppercase probootstrap-uppercase">History</div>
-                  <h3>Take A Look at How We Begin</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis explicabo veniam labore ratione illo
-                    vero voluptate a deserunt incidunt odio aliquam commodi blanditiis voluptas error non rerum
-                    temporibus optio accusantium!
+                  <div className="text-uppercase probootstrap-uppercase font-bold text-gray-900">History</div>
+
+                  <p className='pt-10'>
+                    Meerut college for girls Eduction is a leading degree college for girls in Meerut, dedicated to empowering women through quality education. We provide a safe, inclusive, and academically enriching environment, focusing on intellectual growth, leadership, and career readiness.
+                    With expert faculty and diverse programs, we prepare young women to excel in academics and beyond. Join us in shaping a future where education empowers women to lead and succeed!
                   </p>
                   <p>
-                    <a href="#" className="btn btn-primary">
+                    <a href="#" className="btn btn-primary text-gray-700 mt-10">
                       Learn More
                     </a>
                   </p>
@@ -48,149 +48,10 @@ const AboutContent = () => {
           </div>
         </div>
       </section>
-
-      {/* School Excellence Section */}
-      <section className="probootstrap-section">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6">
-              <p>
-                <img
-                  src="img/slider_1.jpg"
-                  alt="Free Bootstrap Template by uicookes.com"
-                  className="img-responsive"
-                />
-              </p>
-            </div>
-            <div className="col-md-6 col-md-push-1">
-              <h2>We are NYC based School focused on excellence.</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis explicabo veniam labore ratione illo vero
-                voluptate a deserunt incidunt odio aliquam commodi blanditiis voluptas error non rerum temporibus optio
-                accusantium!
-              </p>
-              <p>
-                Quis explicabo veniam labore ratione illo vero voluptate a deserunt incidunt odio aliquam commodi
-                blanditiis voluptas error non rerum temporibus optio accusantium!
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose Us Section */}
-      <section className="probootstrap-section">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
-              <h2>Why Choose Enlight School</h2>
-              <p className="lead">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam
-                soluta at.
-              </p>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-6">
-              <div className="service left-icon probootstrap-animate">
-                <div className="icon">
-                  <i className="icon-checkmark"></i>
-                </div>
-                <div className="text">
-                  <h3>Consectetur Adipisicing</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos
-                    quibusdam soluta at.
-                  </p>
-                </div>
-              </div>
-              <div className="service left-icon probootstrap-animate">
-                <div className="icon">
-                  <i className="icon-checkmark"></i>
-                </div>
-                <div className="text">
-                  <h3>Aliquid Dolorum Saepe</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos
-                    quibusdam soluta at.
-                  </p>
-                </div>
-              </div>
-              <div className="service left-icon probootstrap-animate">
-                <div className="icon">
-                  <i className="icon-checkmark"></i>
-                </div>
-                <div className="text">
-                  <h3>Eveniet Tempora Anisi</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos
-                    quibusdam soluta at.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="service left-icon probootstrap-animate">
-                <div className="icon">
-                  <i className="icon-checkmark"></i>
-                </div>
-                <div className="text">
-                  <h3>Laboriosam Quod Dignissimos</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos
-                    quibusdam soluta at.
-                  </p>
-                </div>
-              </div>
-              <div className="service left-icon probootstrap-animate">
-                <div className="icon">
-                  <i className="icon-checkmark"></i>
-                </div>
-                <div className="text">
-                  <h3>Asperiores Maxime Modi</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos
-                    quibusdam soluta at.
-                  </p>
-                </div>
-              </div>
-              <div className="service left-icon probootstrap-animate">
-                <div className="icon">
-                  <i className="icon-checkmark"></i>
-                </div>
-                <div className="text">
-                  <h3>Libero Maxime Molestiae</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos
-                    quibusdam soluta at.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Stats />
 
       {/* Call to Action Section */}
-      <section className="probootstrap-cta">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <h2 className="probootstrap-animate" data-animate-effect="fadeInRight">
-                Get your admission now!
-              </h2>
-              <a
-                href="#"
-                role="button"
-                className="btn btn-primary btn-lg btn-ghost probootstrap-animate"
-                data-animate-effect="fadeInLeft"
-              >
-                Enroll
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      
     </div>
   );
 };
