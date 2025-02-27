@@ -6,14 +6,13 @@ const AboutContent = () => {
   return (
     <div className="about-content">
       {/* Hero Section */}
-      <section className="probootstrap-section probootstrap-section-colored">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12 text-left section-heading probootstrap-animate">
+      <section className="text-center mt-20 text-5xl text-black">
+     
+       
               <h1>About The School</h1>
-            </div>
-          </div>
-        </div>
+    
+  
+  
       </section>
 
       {/* History Section */}
@@ -21,7 +20,7 @@ const AboutContent = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <div className="probootstrap-flex-block">
+              <div className="md:flex">
                 <div className="probootstrap-text probootstrap-animate">
                   <div className="text-uppercase probootstrap-uppercase font-bold text-gray-900">History</div>
 
@@ -36,12 +35,10 @@ const AboutContent = () => {
                   </p>
                 </div>
                 <div
-                  className="probootstrap-image probootstrap-animate"
+                  className="probootstrap-image probootstrap-animate sm:mt-20 rounded-xl"
                   style={{ backgroundImage: 'url(1.jpg)' }}
                 >
-                  <a href="https://vimeo.com/45830194" className="btn-video popup-vimeo">
-                    <i className="icon-play3"></i>
-                  </a>
+                 
                 </div>
               </div>
             </div>

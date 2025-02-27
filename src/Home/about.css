@@ -6,7 +6,7 @@
   
   /* Hero Section */
   .probootstrap-section-colored {
-    background-color: #6a41ed;
+    background-color: #000000;
     color: white;
     padding: 100px 0;
   }
@@ -101,9 +101,9 @@
   
   /* Call to Action Section */
   .probootstrap-cta {
-    background-color: #6a41ed;
+    background-color: #000000;
     color: white;
-    padding: 100px 0;
+    padding: 50px 0;
     text-align: center;
   }
   
@@ -124,5 +124,5 @@
   
   .btn-ghost:hover {
     background-color: white;
-    color: #6a41ed;
+    color: #000000;
   }

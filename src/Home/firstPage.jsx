@@ -5,6 +5,10 @@ import ImageSlideshow from "./section1";
 import Footer from "./footer";
 import AboutContent from "./about";
 import Testimonials from "./Testimonials";
+import HeroSection from "./HeroSection";
+import Features from "./Features";
+import Faculty from "./Facaulty";
+import LogoCloud from "./LogoClouds";
 
 export default function Home() {
     const images = [
@@ -18,9 +22,12 @@ export default function Home() {
             <Navbr />
             <ImageSlideshow images={images} />
             <AboutContent />
+            <Features/>
+            <HeroSection/>
+            <Faculty/>
 
-
-        <Testimonials/>
+            <Testimonials/>
+            {/* <LogoCloud/> */}
             <Footer />
         </div>
     );
