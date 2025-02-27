@@ -10,11 +10,11 @@ const AdmissionButton = () => {
 
   return (
     <div className="admission-button-container">
-      <button className="admission-button">
-      <p className="color-transition">
+      <button className="admission-button p-1">
+      <p className="color-transition pl-2">
         *New
-      </p>
-        Admissions <span className="highlight">{academicYear}</span>
+      </p >
+        Admissions <span className="highlight ">{academicYear}</span>
       </button>
     </div>
   );

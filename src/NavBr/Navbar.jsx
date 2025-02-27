@@ -50,8 +50,8 @@ function Navbar() {
 
               </ul>
             </div>
-            <div style={{display:"flex",gap:0}}>
-              <div className="search-box">
+            <div style={{display:"flex",gap:0,color:"white"}}>
+              <div className="search-box ">
                 <input type="text" placeholder="Search..." />
                 <button><i className="fas fa-search"></i></button>
 
