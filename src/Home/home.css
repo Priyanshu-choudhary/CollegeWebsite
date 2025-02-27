@@ -1,0 +1,182 @@
+/* Slideshow Container */
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Slideshow */
+.slideshow {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Individual Slide */
+.slide {
+  min-width: 100%;
+  height: 500px; /* Adjust height as needed */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Navigation Buttons */
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+/* Dots Indicator */
+.dots-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.dot:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Footer Container */
+.footer {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 40px 0 20px 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Footer Sections */
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 20px 0;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #b5b5b5;
+}
+
+.footer-section p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ecf0f1;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #000000;
+  font-weight: bolder;
+}
+
+.footer-section ul li i {
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: #ecf0f1;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #000000;
+}
+
+/* Footer Bottom (Copyright) */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #34495e;
+  font-size: 14px;
+  color: #bdc3c7;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-section {
+    margin: 20px 0;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}

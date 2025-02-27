@@ -1,0 +1,122 @@
+/* About Content Container */
+.about-content {
+    font-family: 'Raleway', sans-serif;
+    color: #8b8e94;
+  }
+  
+  /* Hero Section */
+  .probootstrap-section-colored {
+    background-color: #6a41ed;
+    color: white;
+    padding: 100px 0;
+  }
+  
+  .probootstrap-section-colored h1 {
+    font-size: 46px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  
+  /* History Section */
+  .probootstrap-flex-block {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .probootstrap-text {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .probootstrap-text h3 {
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  
+  .probootstrap-text p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .probootstrap-image {
+    flex: 1;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .btn-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: white;
+  }
+  
+  /* School Excellence Section */
+  .probootstrap-section {
+    padding: 100px 0;
+  }
+  
+  .probootstrap-section h2 {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  
+  .probootstrap-section p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Why Choose Us Section */
+  .service {
+    margin-bottom: 30px;
+  }
+  
+  .service .icon i {
+    font-size: 40px;
+    color: #49d292;
+  }
+  
+  .service h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Call to Action Section */
+  .probootstrap-cta {
+    background-color: #6a41ed;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .probootstrap-cta h2 {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  
+  .btn-ghost {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn-ghost:hover {
+    background-color: white;
+    color: #6a41ed;
+  }
