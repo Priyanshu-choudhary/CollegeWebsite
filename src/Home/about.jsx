@@ -8,10 +8,7 @@ const AboutContent = () => {
       {/* Hero Section */}
       <section className="text-center mt-20 text-5xl text-black">
      
-       
-              <h1>About The School</h1>
-    
-  
+              <h1>About The College</h1>
   
       </section>
 
