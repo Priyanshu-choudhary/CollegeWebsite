@@ -50,9 +50,10 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Contact Us</h3>
           <ul>
-            <li><i className="fas fa-map-marker-alt"></i> 123 meerut, India</li>
-            <li><i className="fas fa-phone"></i> +999999999</li>
-            <li><i className="fas fa-envelope"></i> info@college.edu</li>
+            <li><i className="fas fa-map-marker-alt"></i> Meerut College for Girls Education, Chitwana Sherpur, near Kila Parkshitgarh, Kila-Asifabad road, Meerut</li>
+            <li><i className="fas fa-phone"></i> +91-989750153</li>
+            <li><i className="fas fa-phone"></i> +91-9412523456</li>
+            <li><i className="fas fa-envelope"></i> rahual.tyagidr@gmail.com</li>
           </ul>
         </div>
 

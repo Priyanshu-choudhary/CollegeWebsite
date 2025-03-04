@@ -33,9 +33,8 @@ const AboutContent = () => {
                 </div>
                 <div
                   className="probootstrap-image probootstrap-animate sm:mt-20 rounded-xl"
-                  style={{ backgroundImage: 'url(1.jpg)' }}
+                  style={{ backgroundImage: 'url(IMG-20250302-WA0011.jpg)' }}
                 >
-                 
                 </div>
               </div>
             </div>

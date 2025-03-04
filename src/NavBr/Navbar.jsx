@@ -11,16 +11,16 @@ function Navbar() {
         <div className="container">
           <div className="header-content">
             <div className="contact-info ">
-              <span><i className="fas fa-map-marker-alt"></i> 123 meerut, India</span>
-              <span><i className="fas fa-phone"></i> +9999999999</span>
-              <span><i className="fas fa-envelope"></i> info@college.edu</span>
+              <span><i className="fas fa-map-marker-alt"></i>Meerut College for Girls Education, Chitwana Sherpur, near Kila Parkshitgarh, Kila-Asifabad road, Meerut</span>
+              <span><i className="fas fa-phone"></i> +91-9412523456</span>
+              {/* <span><i className="fas fa-envelope"></i> rahual.tyagidr@gmail.com</span> */}
             </div>
-            <div className="social-icons">
+            {/* <div className="social-icons">
               <a href="#"><i className="fab fa-twitter"></i></a>
               <a href="#"><i className="fab fa-facebook-f"></i></a>
               <a href="#"><i className="fab fa-instagram"></i></a>
               <a href="#"><i className="fab fa-linkedin"></i></a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -38,7 +38,7 @@ function Navbar() {
                 <li className="nav-item"><a href="/faculty" className="nav-link">Faculty</a></li>
                 <li className="nav-item"><a href="/events" className="nav-link">Events</a></li>
 
-                <li className="nav-item dropdown">
+                {/* <li className="nav-item dropdown">
                   <a href="#" className="nav-link dropdown-toggle">More <i className="fas fa-chevron-down"></i></a>
                   <ul className="dropdown-menu">
                     <li><a href="/about" className="dropdown-item">About Us</a></li>
@@ -46,7 +46,7 @@ function Navbar() {
                     <li><a href="/news" className="dropdown-item">News</a></li>
                     <li><a href="/contact" className="dropdown-item">Contact</a></li>
                   </ul>
-                </li>
+                </li> */}
 
               </ul>
             </div>

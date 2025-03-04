@@ -25,7 +25,6 @@ export default function Home() {
             <Features/>
             <HeroSection/>
             <Faculty/>
-
             <Testimonials/>
             {/* <LogoCloud/> */}
             <Footer />
