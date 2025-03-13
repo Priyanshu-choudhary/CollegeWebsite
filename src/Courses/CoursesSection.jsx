@@ -36,15 +36,17 @@ const CoursesSection = () => {
                 <p className="text-gray-600">3 Years (6 Semesters)</p>
               </div>
               <div className="mb-6">
-                <h4 className="text-lg font-semibold text-gray-700 mb-2">Key Subjects:</h4>
+                <h4 className="text-lg font-semibold text-gray-700 mb-2"> Subjects:</h4>
                 <ul className="grid grid-cols-2 gap-2 text-gray-600">
                   <li>Hindi</li>
                   <li>English</li>
                   <li>Home Science</li>
                   <li>Education</li>
-                  <li>Drawing and Painting</li>
-                  <li>Sociology</li>
                   <li>Political Science</li>
+               
+                  <li>Sociology</li>
+                  <li>Drawing and Painting</li>
+                  
                 </ul>
               </div>
               <button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300">
