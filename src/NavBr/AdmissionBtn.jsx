@@ -15,7 +15,7 @@ const AdmissionButton = () => {
         *New
       </p >
         Admissions <span className="highlight ">{academicYear}</span>
-      </button>
+              </button>
     </div>
   );
 };

@@ -6,7 +6,7 @@ function Falculty() {
   return (
     <div>
       <Navbar/>
-      <Faculty/>
+      {/* <Faculty/> */}
     </div>
   )
 }

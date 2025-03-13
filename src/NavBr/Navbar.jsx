@@ -1,63 +1,52 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Navbar.css'; // Import the CSS file for styling
 import Logo from './logo';
 import AdmissionButton from './AdmissionBtn';
 
 function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <div>
       {/* Top Header Section */}
       <div className="header-top">
         <div className="container">
           <div className="header-content">
-            <div className="contact-info ">
-              <span><i className="fas fa-map-marker-alt"></i>Meerut College for Girls Education, Chitwana Sherpur, near Kila Parkshitgarh, Kila-Asifabad road, Meerut</span>
+            <div className="contact-info">
+              <span><i className="fas fa-map-marker-alt"></i> Meerut College for Girls Education, Chitwana Sherpur, near Kila Parkshitgarh, Kila-Asifabad road, Meerut</span>
               <span><i className="fas fa-phone"></i> +91-9412523456</span>
-              {/* <span><i className="fas fa-envelope"></i> rahual.tyagidr@gmail.com</span> */}
             </div>
-            {/* <div className="social-icons">
-              <a href="#"><i className="fab fa-twitter"></i></a>
-              <a href="#"><i className="fab fa-facebook-f"></i></a>
-              <a href="#"><i className="fab fa-instagram"></i></a>
-              <a href="#"><i className="fab fa-linkedin"></i></a>
-            </div> */}
           </div>
         </div>
       </div>
+
       <Logo />
+
       {/* Main Navigation Bar */}
-      <nav className="navbar">
-        <div className="container">
+      <nav className="navbar ">
+        <div className="container md:flex justify-between">
+          <div className="nav-header text-white block md:hidden">
+            <button className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+              <i className={`fas ${isMenuOpen ? 'fa-times' : 'fa-bars'}`}></i>
+            </button>
+          </div>
 
-          <div style={{ display: "flex", justifyContent: "space-between" }}>
+          {/* Navigation Menu */}
+          <div className={`navbar-collapse ${isMenuOpen ? 'open' : ''}`}>
+            <ul className="navbar-nav">
+              <li className="nav-item active"><a href="/" className="nav-link">Home</a></li>
+              <li className="nav-item"><a href="/courses" className="nav-link">Courses</a></li>
+              <li className="nav-item"><a href="/events" className="nav-link">Events</a></li>
+            </ul>
+          </div>
 
-            <div className="navbar-collapse">
-              <ul className="navbar-nav">
-                <li className="nav-item active"><a href="/" className="nav-link">Home</a></li>
-                <li className="nav-item"><a href="/courses" className="nav-link">Courses</a></li>
-                <li className="nav-item"><a href="/faculty" className="nav-link">Faculty</a></li>
-                <li className="nav-item"><a href="/events" className="nav-link">Events</a></li>
-
-                {/* <li className="nav-item dropdown">
-                  <a href="#" className="nav-link dropdown-toggle">More <i className="fas fa-chevron-down"></i></a>
-                  <ul className="dropdown-menu">
-                    <li><a href="/about" className="dropdown-item">About Us</a></li>
-                    <li><a href="/gallery" className="dropdown-item">Gallery</a></li>
-                    <li><a href="/news" className="dropdown-item">News</a></li>
-                    <li><a href="/contact" className="dropdown-item">Contact</a></li>
-                  </ul>
-                </li> */}
-
-              </ul>
+          {/* Search & Admission Button */}
+          <div className="nav-right md:flex justify-items-end">
+            <div className="search-box">
+              <input type="text" placeholder="Search..." />
+              <button><i className="fas fa-search"></i></button>
             </div>
-            <div style={{display:"flex",gap:0,color:"white"}}>
-              <div className="search-box ">
-                <input type="text" placeholder="Search..." />
-                <button><i className="fas fa-search"></i></button>
-
-              </div>
-              <AdmissionButton />
-            </div>
+            <AdmissionButton />
           </div>
         </div>
       </nav>

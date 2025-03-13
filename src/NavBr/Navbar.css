@@ -225,3 +225,16 @@ body {
 .color-transition {
   animation: colorChange 3s infinite;
 }
+.navbar-collapse {
+  display: none;
+}
+
+.navbar-collapse.open {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .navbar-collapse {
+    display: flex !important;
+  }
+}

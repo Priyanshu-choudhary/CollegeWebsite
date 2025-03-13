@@ -48,7 +48,16 @@ const CoursesSection = () => {
                 </ul>
               </div>
               <button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300">
-                Enroll Now
+              <a
+                href="https://wa.me/919412523456?text=I'm%20interested%20in%20B.A%20in%20Courses%20in%20in%20in%20your%20in%20College."
+                target="_blank"
+                rel="noopener noreferrer"
+                role="button"
+                className="btn btn-primary "
+                data-animate-effect="fadeInLeft"
+              >
+                Get Admission
+              </a>
               </button>
             </div>
           </div>
@@ -83,7 +92,16 @@ const CoursesSection = () => {
                 </ul>
               </div>
               <button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300">
-                Enroll Now
+              <a
+                href="https://wa.me/919412523456?text=I'm%20interested%20in%20B.Com%20in%20Courses%20in%20in%20in%20your%20in%20College."
+                target="_blank"
+                rel="noopener noreferrer"
+                role="button"
+                className="btn btn-primary "
+                data-animate-effect="fadeInLeft"
+              >
+                Get Admission
+              </a>
               </button>
             </div>
           </div>
@@ -98,7 +116,17 @@ const CoursesSection = () => {
             are ready to face the challenges of the modern world.
           </p>
           <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-all duration-300">
-           Ask our Experts
+          
+           <a
+                href="https://wa.me/919412523456"
+                target="_blank"
+                rel="noopener noreferrer"
+                role="button"
+                className="btn btn-primary "
+                data-animate-effect="fadeInLeft"
+              >
+               Ask our Experts
+              </a>
           </button>
         </div>
       </div>

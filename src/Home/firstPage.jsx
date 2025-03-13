@@ -24,7 +24,7 @@ export default function Home() {
             <AboutContent />
             <Features/>
             <HeroSection/>
-            <Faculty/>
+            {/* <Faculty/> */}
             <Testimonials/>
             {/* <LogoCloud/> */}
             <Footer />
