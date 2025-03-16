@@ -1,5 +1,5 @@
 const stats = [
-  { id: 1, name: 'Trusted by Over 495 Students', value: '495+' },
+  { id: 1, name: 'Trusted by Over 1000 Students', value: '1000+' },
   { id: 2, name: 'Guided by Passionate Faculty Members', value: '20' },
   { id: 3, name: 'Explore Dynamic Courses', value: '5' },
   { id: 4, name: 'Successful Alumni Worldwide', value: '100+' },

@@ -1,6 +1,5 @@
 import React from 'react';
 import './about.css'; // Import the CSS file for styling
-import Stats from './Stats';
 
 const AboutContent = () => {
   return (
@@ -41,7 +40,6 @@ const AboutContent = () => {
           </div>
         </div>
       </section>
-      <Stats />
 
       {/* Call to Action Section */}
       

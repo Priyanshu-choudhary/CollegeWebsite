@@ -9,6 +9,7 @@ import HeroSection from "./HeroSection";
 import Features from "./Features";
 import Faculty from "./Facaulty";
 import LogoCloud from "./LogoClouds";
+import Stats from './Stats';
 
 export default function Home() {
     const images = [
@@ -22,6 +23,8 @@ export default function Home() {
             <Navbr />
             <ImageSlideshow images={images} />
             <AboutContent />
+            <Stats />
+
             <Features/>
             <HeroSection/>
             {/* <Faculty/> */}
