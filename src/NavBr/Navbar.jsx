@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css'; // Import the CSS file for styling
-import Logo from './logo';
-import AdmissionButton from './AdmissionBtn';
+// import Logo from './logo';
+// import AdmissionButton from './AdmissionBtn';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +20,7 @@ function Navbar() {
         </div>
       </div>
 
-      <Logo />
+      {/* <Logo /> */}
 
       {/* Main Navigation Bar */}
       <nav className="navbar ">
@@ -46,7 +46,7 @@ function Navbar() {
               <input type="text" placeholder="Search..." />
               <button><i className="fas fa-search"></i></button>
             </div>
-            <AdmissionButton />
+            {/* <AdmissionButton /> */}
           </div>
         </div>
       </nav>

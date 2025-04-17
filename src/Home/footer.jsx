@@ -52,7 +52,7 @@ const Footer = () => {
             <h3>Contact Us</h3>
             <ul>
               <li><i className="fas fa-map-marker-alt"></i> Meerut College for Girls Education, Chitwana Sherpur, near Kila Parkshitgarh, Kila-Asifabad road, Meerut</li>
-              <li><i className="fas fa-phone"></i> +91-989750153</li>
+              <li><i className="fas fa-phone"></i> +91-9897506153</li>
               <li><i className="fas fa-phone"></i> +91-9412523456</li>
               <li><i className="fas fa-envelope"></i> rahual.tyagidr@gmail.com</li>
             </ul>
