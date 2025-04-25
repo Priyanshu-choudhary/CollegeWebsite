@@ -9,13 +9,13 @@ export default function Testimonials() {
       msg: "“At Meerut College For Girls Education, we believe that education is the key to empowerment. Our mission is to provide young women with the knowledge, confidence, and skills to shape their own future. We are committed to creating a nurturing and intellectually stimulating environment where every student can thrive and achieve her dreams. Together, we are building a generation of strong, independent, and successful women.”",
       img: "WhatsApp Image 2025-03-02 at 16.54.26_632131df.jpg",
     },
-    {
-      id: 2,
-      name: "Mrs. Rajkumari Tyagi",
-      post: "Patron",
-      msg: "“Education is not just about acquiring knowledge; it is about shaping character and building a better society. At our institution, we strive to create an environment where every student can reach her full potential.”",
-      img: "patron.jpg",
-    },
+    // {
+    //   id: 2,
+    //   name: "Mrs. Rajkumari Tyagi",
+    //   post: "Patron",
+    //   msg: "“Education is not just about acquiring knowledge; it is about shaping character and building a better society. At our institution, we strive to create an environment where every student can reach her full potential.”",
+    //   img: "patron.jpg",
+    // },
   ];
 
   const [index, setIndex] = useState(0);
