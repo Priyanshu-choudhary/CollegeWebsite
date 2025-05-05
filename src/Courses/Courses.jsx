@@ -57,7 +57,7 @@ const CoursesPage = () => {
           <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition">
             <div className="relative h-64 overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
+                src="books.webp" 
                 alt="B.A Students" 
                 className="w-full h-full object-cover"
               />
@@ -139,12 +139,12 @@ const CoursesPage = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-3">
-                <a 
+                {/* <a 
                   href="/ba-program-details" 
                   className="bg-white border border-indigo-700 text-indigo-700 hover:bg-indigo-50 px-6 py-3 rounded-lg font-medium text-center transition"
                 >
                   View Details
-                </a>
+                </a> */}
                 <a 
                   href="https://wa.me/919412523456?text=I'm%20interested%20in%20B.A%20program"
                   target="_blank"
@@ -268,12 +268,12 @@ const CoursesPage = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-3">
-                <a 
+                {/* <a 
                   href="/bcom-program-details" 
                   className="bg-white border border-indigo-700 text-indigo-700 hover:bg-indigo-50 px-6 py-3 rounded-lg font-medium text-center transition"
                 >
                   View Details
-                </a>
+                </a> */}
                 <a 
                   href="https://wa.me/919412523456?text=I'm%20interested%20in%20B.Com%20program"
                   target="_blank"
