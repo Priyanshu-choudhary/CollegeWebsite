@@ -15,16 +15,16 @@ function Navbar() {
       <div className="bg-orange-500 text-white text-xs sm:text-sm py-1.5 px-4 border-b border-orange-500">
         <div className="container  flex flex-col sm:flex-row justify-between items-center gap-1 sm:gap-0">
           {/* Left Info - Address & Badges */}
-          <div className="flex items-center">
+          <div className="flex justify-between">
             <FaMapMarkerAlt className="mr-1.5 text-white" />
             <span className=" max-w-[180px] xs:max-w-[220px] sm:max-w-none">
               Meerut College for Girls Education, Chitwana Sherpur, Kila-Asifabad Road, Meerut
             </span>
 
             {/* Accreditation Badges - Only visible on larger screens */}
-            <div className="hidden sm:flex items-center ml-3 gap-2">
-              <div className="bg-white/90 px-2 py-0.5 rounded-sm border border-orange-300 shadow-xs">
-                <span className="text-black font-bold text-xs">Affiliated by Chaudhary Charan Singh University (NAAC A++) </span>
+            <div className="hidden sm:flex items-center ml-3 gap-2 min-w-fit mr-5">
+              <div className="bg-white/90 px-2 py-0.5 rounded-sm border border-orange-300 shadow-xs w-fit">
+                <span className="text-black font-bold text-xs">Affiliated by CCS University (NAAC A++) </span>
               </div>
 
             </div>
@@ -46,12 +46,9 @@ function Navbar() {
         {/* Accreditation Badges - For mobile */}
         <div className="sm:hidden flex justify-center mt-1 gap-2">
           <div className="bg-white/90 px-2 py-0.5 rounded-sm border border-orange-300 shadow-xs">
-            <span className="text-black font-bold text-xs">CCSU Affiliated</span>
+            <span className="text-black font-bold text-xs">Affiliated by CCS University (NAAC A++) </span>
           </div>
-          <div className="bg-white/90 px-2 py-0.5 rounded-sm border border-orange-300 shadow-xs">
-
-            <span className="text-black font-bold text-xs">NAAC A++</span>
-          </div>
+         
         </div>
       </div>
 
