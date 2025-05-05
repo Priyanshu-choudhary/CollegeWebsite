@@ -54,7 +54,7 @@ export default function Testimonials() {
                   src={people[index].img}
                   className="mx-auto size-30 rounded-full transition-all duration-500"
                 />
-                <div className="mt-4 flex items-center justify-center space-x-3 text-base">
+                <div className="mt-4  items-center justify-center space-x-3 text-base">
                   <div className="font-semibold text-gray-900">{people[index].name}</div>
                   <svg
                     width={4}

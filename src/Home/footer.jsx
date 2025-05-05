@@ -40,6 +40,7 @@ const Footer = () => {
             <p className="mb-4 text-gray-300">
               A premier institution dedicated to women's education and empowerment in Meerut, Uttar Pradesh.
             </p>
+            <p className='border-1 rounded-md px-2 py-1 mb-2'> College code:300</p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white transition">
                 <FaFacebook className="text-2xl" />

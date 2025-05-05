@@ -13,23 +13,20 @@ function Navbar() {
     <div className="bg-white shadow-md">
       {/* Top Info Bar */}
       <div className="bg-orange-500 text-white text-xs sm:text-sm py-1.5 px-4 border-b border-orange-500">
-        <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center gap-1 sm:gap-0">
+        <div className="container  flex flex-col sm:flex-row justify-between items-center gap-1 sm:gap-0">
           {/* Left Info - Address & Badges */}
           <div className="flex items-center">
             <FaMapMarkerAlt className="mr-1.5 text-white" />
-            <span className="truncate max-w-[180px] xs:max-w-[220px] sm:max-w-none">
+            <span className=" max-w-[180px] xs:max-w-[220px] sm:max-w-none">
               Meerut College for Girls Education, Chitwana Sherpur, Kila-Asifabad Road, Meerut
             </span>
 
             {/* Accreditation Badges - Only visible on larger screens */}
             <div className="hidden sm:flex items-center ml-3 gap-2">
               <div className="bg-white/90 px-2 py-0.5 rounded-sm border border-orange-300 shadow-xs">
-              <span className="text-black font-bold text-xs">Affiliated by Chaudhary Charan Singh University </span>
+                <span className="text-black font-bold text-xs">Affiliated by Chaudhary Charan Singh University (NAAC A++) </span>
               </div>
-              <div className="bg-white/90 px-2 py-0.5 rounded-sm border border-orange-300 shadow-xs">
-                
-                <span className="text-black font-bold text-xs">NAAC A++</span>
-              </div>
+
             </div>
           </div>
 
@@ -60,14 +57,18 @@ function Navbar() {
 
 
       {/* Main Navigation */}
-      <nav className="container mx-auto px-4 py-3">
+      <nav className="container px-4 py-3">
         <div className="flex justify-between items-center">
           {/* Logo and College Name */}
           <div className="flex items-center">
             <img className="mr-2" src="logoCLG.jpg" alt="logo" style={{ height: 35 }} />
             <div>
-              <h1 className="text-xl font-bold text-gray-800">Meerut College</h1>
-              <p className="text-xs text-gray-600">For Girls Education</p>
+              <h1 className="text-xl font-bold text-gray-800">Meerut College For Girls Education</h1>
+              <p className="inline-block border text-sm border-gray-300 rounded-md px-2 py-1 mb-2">
+  College code: <strong>300</strong>
+</p>
+
+              {/* <p className="text-xl font-bold text-gray-800"></p> */}
             </div>
           </div>
 
@@ -132,6 +133,28 @@ function Navbar() {
                       className="block px-4 py-3 text-gray-700 hover:bg-orange-50 hover:text-orange-500 transition-colors flex items-center"
                       onClick={() => setIsCoursesOpen(false)}
                     >
+                      <MdOutlineLibraryBooks className="mr-2 text-orange-400 text-lg" />
+                      <div>
+                        <div className="font-medium">M.A Programs</div>
+                        <div className="text-xs text-gray-500 mt-1">Commerce and Business</div>
+                      </div>
+                    </a>
+                    <a
+                      href="/courses"
+                      className="block px-4 py-3 text-gray-700 hover:bg-orange-50 hover:text-orange-500 transition-colors flex items-center"
+                      onClick={() => setIsCoursesOpen(false)}
+                    >
+                      <MdOutlineLibraryBooks className="mr-2 text-orange-400 text-lg" />
+                      <div>
+                        <div className="font-medium">M.C.A Programs</div>
+                        <div className="text-xs text-gray-500 mt-1">Commerce and Business</div>
+                      </div>
+                    </a>
+                    <a
+                      href="/courses"
+                      className="block px-4 py-3 text-gray-700 hover:bg-orange-50 hover:text-orange-500 transition-colors flex items-center"
+                      onClick={() => setIsCoursesOpen(false)}
+                    >
                       <FaAward className="mr-2 text-orange-400" />
                       <div>
                         <div className="font-medium">Certificate Courses</div>
@@ -164,13 +187,13 @@ function Navbar() {
 
             {/* Search and Admission Button */}
             <div className="flex items-center ml-6 space-x-4">
-              <button
+              {/* <button
                 onClick={() => setSearchOpen(!searchOpen)}
                 className="text-gray-600 hover:text-orange-500 transition"
                 aria-label="Search"
               >
                 <FaSearch className="text-lg" />
-              </button>
+              </button> */}
               <a
                 href="/admissions"
                 className="bg-orange-500 hover:bg-orange-500 text-white px-4 py-2 rounded-md font-medium transition"
@@ -248,6 +271,20 @@ function Navbar() {
                   onClick={() => setIsMenuOpen(false)}
                 >
                   B.Com Programs
+                </a>
+                <a
+                  href="/courses"
+                  className="block py-2 text-gray-700 hover:text-orange-500"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  M.A Programs
+                </a>
+                <a
+                  href="/courses"
+                  className="block py-2 text-gray-700 hover:text-orange-500"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                 M.C.A Programs
                 </a>
                 <a
                   href="/courses"

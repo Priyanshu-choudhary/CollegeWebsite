@@ -8,7 +8,7 @@ const CoursesPage = () => {
   return (
     <div className="font-sans bg-gray-50">
       <Navbar />
-      
+
       {/* Hero Banner */}
       <div className="relative bg-orange-500 text-white py-20">
         <div className="absolute inset-0 bg-black/50 z-10"></div>
@@ -46,7 +46,7 @@ const CoursesPage = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Undergraduate Programs</h2>
           <div className="w-20 h-1 bg-orange-400 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Meerut College for Girls Education offers comprehensive undergraduate programs designed to provide 
+            Meerut College for Girls Education offers comprehensive undergraduate programs designed to provide
             strong academic foundations while developing critical thinking and professional skills.
           </p>
         </div>
@@ -56,22 +56,22 @@ const CoursesPage = () => {
           {/* B.A Program */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition">
             <div className="relative h-64 overflow-hidden">
-              <img 
-                src="books.webp" 
-                alt="B.A Students" 
+              <img
+                src="books.webp"
+                alt="B.A Students"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-orange-500/80 to-transparent flex items-end p-6">
+              <div className="absolute inset-0 bg-gradient-to-t from-orange-400/60 to-transparent flex items-end p-6">
                 <h3 className="text-3xl font-bold text-white">Bachelor of Arts (B.A)</h3>
               </div>
             </div>
-            
+
             <div className="p-6">
               <p className="text-gray-600 mb-6">
-                Our B.A program offers a broad liberal arts education with specializations in humanities and social sciences. 
+                Our B.A program offers a broad liberal arts education with specializations in humanities and social sciences.
                 The curriculum is designed to develop critical thinking, communication skills, and cultural awareness.
               </p>
-              
+
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="flex items-start">
                   <FaGraduationCap className="text-orange-500 mt-1 mr-3" />
@@ -102,7 +102,7 @@ const CoursesPage = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="mb-6">
                 <h4 className="font-semibold text-gray-800 mb-3">Specializations Offered:</h4>
                 <div className="flex flex-wrap gap-2">
@@ -115,7 +115,7 @@ const CoursesPage = () => {
                   <span className="bg-orange-100 text-orange-500 px-3 py-1 rounded-full text-sm">Home Science</span>
                 </div>
               </div>
-              
+
               <div className="mb-6">
                 <h4 className="font-semibold text-gray-800 mb-2">Program Highlights:</h4>
                 <ul className="space-y-2 text-gray-600">
@@ -137,7 +137,7 @@ const CoursesPage = () => {
                   </li>
                 </ul>
               </div>
-              
+
               <div className="flex flex-col sm:flex-row gap-3">
                 {/* <a 
                   href="/ba-program-details" 
@@ -145,7 +145,7 @@ const CoursesPage = () => {
                 >
                   View Details
                 </a> */}
-                <a 
+                <a
                   href="https://wa.me/919412523456?text=I'm%20interested%20in%20B.A%20program"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -160,22 +160,22 @@ const CoursesPage = () => {
           {/* B.Com Program */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition">
             <div className="relative h-64 overflow-hidden">
-              <img 
-                src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
-                alt="B.Com Students" 
+              <img
+                src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                alt="B.Com Students"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-orange-500/80 to-transparent flex items-end p-6">
+              <div className="absolute inset-0 bg-gradient-to-t from-orange-400/60 to-transparent flex items-end p-6">
                 <h3 className="text-3xl font-bold text-white">Bachelor of Commerce (B.Com)</h3>
               </div>
             </div>
-            
+
             <div className="p-6">
               <p className="text-gray-600 mb-6">
-                Our B.Com program provides comprehensive knowledge in commerce, accounting, and business management. 
+                Our B.Com program provides comprehensive knowledge in commerce, accounting, and business management.
                 The curriculum blends theoretical concepts with practical applications to prepare students for corporate careers.
               </p>
-              
+
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="flex items-start">
                   <FaGraduationCap className="text-orange-500 mt-1 mr-3" />
@@ -206,7 +206,7 @@ const CoursesPage = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="mb-6">
                 <h4 className="font-semibold text-gray-800 mb-3">Core Subjects:</h4>
                 <div className="grid grid-cols-2 gap-2 text-sm">
@@ -244,7 +244,7 @@ const CoursesPage = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="mb-6">
                 <h4 className="font-semibold text-gray-800 mb-2">Career Opportunities:</h4>
                 <ul className="space-y-2 text-gray-600">
@@ -266,7 +266,7 @@ const CoursesPage = () => {
                   </li>
                 </ul>
               </div>
-              
+
               <div className="flex flex-col sm:flex-row gap-3">
                 {/* <a 
                   href="/bcom-program-details" 
@@ -274,7 +274,192 @@ const CoursesPage = () => {
                 >
                   View Details
                 </a> */}
-                <a 
+                <a
+                  href="https://wa.me/919412523456?text=I'm%20interested%20in%20B.Com%20program"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-orange-500 hover:bg-orange-500 text-white px-6 py-3 rounded-lg font-medium text-center transition"
+                >
+                  Apply Now
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition">
+            <div className="relative h-64 overflow-hidden">
+              <img
+                src="books.webp"
+                alt="B.A Students"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-orange-400/60 to-transparent flex items-end p-6">
+                <h3 className="text-3xl font-bold text-white">Master of Arts (M.A)</h3>
+              </div>
+            </div>
+
+            <div className="p-6">
+              <p className="text-gray-600 mb-6">
+                Our M.A program fosters critical thinking and in-depth understanding of humanities and social sciences.
+                With specializations in subjects like English, Economics, and History, students are prepared for careers in education, research, and administration.
+              </p>
+
+              <div className="grid grid-cols-2 gap-4 mb-6">
+                <div className="flex items-start">
+                  <FaGraduationCap className="text-orange-500 mt-1 mr-3" />
+                  <div>
+                    <h4 className="font-semibold text-gray-800">Degree</h4>
+                    <p className="text-gray-600 text-sm">Master of Arts</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <FaCalendarAlt className="text-orange-500 mt-1 mr-3" />
+                  <div>
+                    <h4 className="font-semibold text-gray-800">Duration</h4>
+                    <p className="text-gray-600 text-sm">2 Years (4 Semesters)</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <MdOutlineSchool className="text-orange-500 mt-1 mr-3 text-xl" />
+                  <div>
+                    <h4 className="font-semibold text-gray-800">Eligibility</h4>
+                    <p className="text-gray-600 text-sm">Bachelor’s degree in any discipline</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <FaRupeeSign className="text-orange-500 mt-1 mr-3" />
+                  <div>
+                    <h4 className="font-semibold text-gray-800">Fees</h4>
+                    <p className="text-gray-600 text-sm">₹12,000/year</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mb-6">
+                <h4 className="font-semibold text-gray-800 mb-3">Core Subjects:</h4>
+                <div className="grid grid-cols-2 gap-2 text-sm">
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Literary Theory</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Modern Indian History</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Development Economics</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Research Methodology</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Political Philosophy</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>English Literature</span></div>
+                </div>
+              </div>
+
+              <div className="mb-6">
+                <h4 className="font-semibold text-gray-800 mb-2">Career Opportunities:</h4>
+                <ul className="space-y-2 text-gray-600">
+                  <li className="flex items-start"><span className="text-orange-500 mr-2">✓</span><span>Teaching and academic roles</span></li>
+                  <li className="flex items-start"><span className="text-orange-500 mr-2">✓</span><span>Government and administrative services</span></li>
+                  <li className="flex items-start"><span className="text-orange-500 mr-2">✓</span><span>Research and policy analysis</span></li>
+                  <li className="flex items-start"><span className="text-orange-500 mr-2">✓</span><span>Media, publishing, and content writing</span></li>
+                </ul>
+              </div>
+
+
+              <div className="flex flex-col sm:flex-row gap-3">
+                {/* <a 
+                  href="/ba-program-details" 
+                  className="bg-white border border-orange-500 text-orange-500 hover:bg-orange-50 px-6 py-3 rounded-lg font-medium text-center transition"
+                >
+                  View Details
+                </a> */}
+                <a
+                  href="https://wa.me/919412523456?text=I'm%20interested%20in%20B.A%20program"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-orange-500 hover:bg-orange-500 text-white px-6 py-3 rounded-lg font-medium text-center transition"
+                >
+                  Apply Now
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* B.Com Program */}
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition">
+            <div className="relative h-64 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                alt="B.Com Students"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-orange-400/60 to-transparent flex items-end p-6">
+                <h3 className="text-3xl font-bold text-white">Master of Computer Applications (M.C.A)</h3>
+              </div>
+            </div>
+
+            <div className="p-6">
+              <p className="text-gray-600 mb-6">
+                The MCA program is designed to develop advanced skills in software development, system design, and IT project management.
+                With a strong foundation in computer science, students are equipped to build innovative tech solutions.
+              </p>
+
+              <div className="grid grid-cols-2 gap-4 mb-6">
+                <div className="flex items-start">
+                  <FaGraduationCap className="text-orange-500 mt-1 mr-3" />
+                  <div>
+                    <h4 className="font-semibold text-gray-800">Degree</h4>
+                    <p className="text-gray-600 text-sm">Master of Computer Applications</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <FaCalendarAlt className="text-orange-500 mt-1 mr-3" />
+                  <div>
+                    <h4 className="font-semibold text-gray-800">Duration</h4>
+                    <p className="text-gray-600 text-sm">2 Years (4 Semesters)</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <MdOutlineSchool className="text-orange-500 mt-1 mr-3 text-xl" />
+                  <div>
+                    <h4 className="font-semibold text-gray-800">Eligibility</h4>
+                    <p className="text-gray-600 text-sm">BCA or B.Sc (CS/IT) or equivalent</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <FaRupeeSign className="text-orange-500 mt-1 mr-3" />
+                  <div>
+                    <h4 className="font-semibold text-gray-800">Fees</h4>
+                    <p className="text-gray-600 text-sm">₹25,000/year</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mb-6">
+                <h4 className="font-semibold text-gray-800 mb-3">Core Subjects:</h4>
+                <div className="grid grid-cols-2 gap-2 text-sm">
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Data Structures & Algorithms</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Database Management Systems</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Operating Systems</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Software Engineering</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Computer Networks</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Web Technologies</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Machine Learning</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Cloud Computing</span></div>
+                </div>
+              </div>
+
+              <div className="mb-6">
+                <h4 className="font-semibold text-gray-800 mb-2">Career Opportunities:</h4>
+                <ul className="space-y-2 text-gray-600">
+                  <li className="flex items-start"><span className="text-orange-500 mr-2">✓</span><span>Software Developer / Engineer</span></li>
+                  <li className="flex items-start"><span className="text-orange-500 mr-2">✓</span><span>Database Administrator</span></li>
+                  <li className="flex items-start"><span className="text-orange-500 mr-2">✓</span><span>Data Analyst / Data Scientist</span></li>
+                  <li className="flex items-start"><span className="text-orange-500 mr-2">✓</span><span>System Architect or IT Consultant</span></li>
+                </ul>
+              </div>
+
+
+              <div className="flex flex-col sm:flex-row gap-3">
+                {/* <a 
+                  href="/bcom-program-details" 
+                  className="bg-white border border-orange-500 text-orange-500 hover:bg-orange-50 px-6 py-3 rounded-lg font-medium text-center transition"
+                >
+                  View Details
+                </a> */}
+                <a
                   href="https://wa.me/919412523456?text=I'm%20interested%20in%20B.Com%20program"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -287,10 +472,14 @@ const CoursesPage = () => {
           </div>
         </div>
 
+        {/* M.A programe */}
+
+
+
         {/* Additional Programs */}
         <div className="mb-16">
           <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">Additional Learning Opportunities</h3>
-          
+
           <div className="grid md:grid-cols-3 gap-6">
             {/* Certificate Programs */}
             <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
@@ -316,7 +505,7 @@ const CoursesPage = () => {
                 </li>
               </ul>
             </div>
-            
+
             {/* Internship Support */}
             <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
               <div className="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
@@ -341,7 +530,7 @@ const CoursesPage = () => {
                 </li>
               </ul>
             </div>
-            
+
             {/* Placement Assistance */}
             <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
               <div className="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
@@ -372,36 +561,36 @@ const CoursesPage = () => {
         {/* FAQ Section */}
         <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
           <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">Frequently Asked Questions</h3>
-          
+
           <div className="space-y-4">
             <div className="border-b border-gray-200 pb-4">
               <h4 className="font-semibold text-gray-800 mb-2">What is the admission process for B.A/B.Com programs?</h4>
               <p className="text-gray-600">
-                Admissions are based on merit in the qualifying examination. The process involves online application form submission, 
+                Admissions are based on merit in the qualifying examination. The process involves online application form submission,
                 document verification, and fee payment. Please check our admissions page for detailed information.
               </p>
             </div>
-            
+
             <div className="border-b border-gray-200 pb-4">
               <h4 className="font-semibold text-gray-800 mb-2">Are there any scholarships available?</h4>
               <p className="text-gray-600">
-                Yes, we offer merit-based scholarships and financial aid for deserving students. There are also government 
+                Yes, we offer merit-based scholarships and financial aid for deserving students. There are also government
                 scholarships available for eligible candidates.
               </p>
             </div>
-            
+
             <div className="border-b border-gray-200 pb-4">
               <h4 className="font-semibold text-gray-800 mb-2">Can I pursue both B.A and B.Com simultaneously?</h4>
               <p className="text-gray-600">
-                No, the university regulations do not permit simultaneous enrollment in two degree programs. However, you 
+                No, the university regulations do not permit simultaneous enrollment in two degree programs. However, you
                 can pursue certificate courses alongside your degree.
               </p>
             </div>
-            
+
             <div className="pb-2">
               <h4 className="font-semibold text-gray-800 mb-2">What are the class timings?</h4>
               <p className="text-gray-600">
-                Regular classes are conducted from 9:30 AM to 3:30 PM, Monday to Saturday. There may be variations for 
+                Regular classes are conducted from 9:30 AM to 3:30 PM, Monday to Saturday. There may be variations for
                 practical sessions or special classes.
               </p>
             </div>
@@ -415,14 +604,14 @@ const CoursesPage = () => {
             Our admission counselors are available to guide you through the program selection and admission process.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="tel:+919412523456" 
+            <a
+              href="tel:+919412523456"
               className="bg-orange-500 hover:bg-orange-500 text-white px-6 py-3 rounded-lg font-medium transition"
             >
               Call Admission Office
             </a>
-            <a 
-              href="/contact" 
+            <a
+              href="/contact"
               className="bg-white border border-orange-500 text-orange-500 hover:bg-orange-50 px-6 py-3 rounded-lg font-medium transition"
             >
               Visit Campus

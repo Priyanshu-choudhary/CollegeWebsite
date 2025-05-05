@@ -355,34 +355,65 @@ export default function Home() {
             </section> */}
 
             {/* Affiliations/Recognitions */}
+          
             <section className="py-16 bg-white">
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Affiliations & Recognitions</h2>
-                        <div className="w-20 h-1 bg-orange-400 mx-auto"></div>
-                        <p className="text-gray-600 max-w-2xl mx-auto text-base md:text-lg">
-                            Meerut College for Girls takes pride in its prestigious affiliations and accreditations. Our commitment to academic excellence is reflected through our affiliation with <span className="text-orange-500 font-semibold">Chaudhary Charan Singh University (CCSU)</span> and our recognition with a <span className="text-green-700 font-semibold">NAAC A++</span> grade — the highest level of accreditation for quality education in India.
+                        <div className="w-20 h-1 bg-orange-500 mx-auto mb-6"></div>
+                        <p className="text-gray-600 max-w-3xl mx-auto text-base md:text-lg">
+                            <strong>Meerut College for Girls Education</strong> is proudly affiliated with
+                            <span className="text-orange-600 font-semibold"> Chaudhary Charan Singh University (CCSU)</span>,
+                            which holds the prestigious <span className="text-green-700 font-semibold">NAAC A++</span> accreditation -
+                            the highest grade awarded by the National Assessment and Accreditation Council.
                         </p>
                     </div>
 
-                    <div className="flex flex-col md:flex-row justify-center items-center gap-10 text-center">
-                        {/* CCSU Affiliation */}
-                        <div className="max-w-xs p-6 border rounded-lg shadow hover:shadow-lg transition duration-300">
-                            <img src="CCSU-Logo.jpg" alt="CCSU Logo" className="w-24 h-24 mx-auto mb-4" />
-                            <h3 className="text-xl font-semibold text-gray-700">Affiliated to</h3>
-                            <p className="text-orange-500 font-bold mt-2">Chaudhary Charan Singh University (CCSU), Meerut</p>
+                    <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                        {/* CCSU Affiliation Card */}
+                        <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col items-center">
+                            <div className="bg-orange-50 p-4 rounded-full mb-4">
+                                <img src="CCSU-Logo.jpg" alt="CCSU Logo" className="w-20 h-20 object-contain" />
+                            </div>
+                            <h3 className="text-xl font-bold text-gray-800 mb-2">Affiliated To</h3>
+                            <p className="text-orange-600 font-semibold text-center">Chaudhary Charan Singh University</p>
+                            <p className="text-gray-500 text-sm mt-1">(A NAAC A++ Accredited University)</p>
+                            <div className="mt-4 text-sm text-gray-600">
+                                Our college follows the curriculum and standards set by CCSU, Meerut
+                            </div>
                         </div>
 
-                        {/* NAAC Accreditation */}
-                        <div className="max-w-xs p-6 border rounded-lg shadow hover:shadow-lg transition duration-300">
-                            <img src="Naac.jpg" alt="NAAC Logo" className="w-24 h-24 mx-auto mb-4" />
-                            <h3 className="text-xl font-semibold text-gray-700">Accredited with</h3>
-                            <p className="text-green-700 font-bold mt-2">NAAC A++ Grade</p>
+                        {/* NAAC Accreditation Card */}
+                        <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col items-center">
+                            <div className="bg-green-50 p-4 rounded-full mb-4">
+                                <img src="Naac.jpg" alt="NAAC Logo" className="w-20 h-20 object-contain" />
+                            </div>
+                            <h3 className="text-xl font-bold text-gray-800 mb-2">University Accreditation</h3>
+                            <p className="text-green-700 font-semibold text-center">NAAC A++ Grade</p>
+                            <p className="text-gray-500 text-sm mt-1">(Highest Accreditation in India)</p>
+                            <div className="mt-4 text-sm text-gray-600">
+                                Our affiliating university holds this prestigious accreditation
+                            </div>
+                        </div>
+                    </div>
+                    {/* Clarification Note */}
+                    <div className="mt-12 bg-orange-50 border-l-4 border-orange-500 rounded-r-lg p-4 max-w-3xl mx-auto">
+                        <div className="flex">
+                            <div className="flex-shrink-0">
+                                <svg className="h-5 w-5 text-orange-500" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                                </svg>
+                            </div>
+                            <div className="ml-3">
+                                <p className="text-sm text-orange-700">
+                                    <strong>Note:</strong> The NAAC A++ accreditation belongs to our affiliating university (CCSU).
+                                    As an affiliated college, we adhere to their quality standards and academic framework.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-
 
             <Footer />
         </div>
