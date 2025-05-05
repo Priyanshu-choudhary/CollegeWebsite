@@ -131,12 +131,7 @@ function Navbar() {
               </div>
 
 
-              <a href="/faculty" className="text-gray-800 hover:text-indigo-700 font-medium py-2 border-b-2 border-transparent hover:border-indigo-700 transition">
-                Faculty
-              </a>
-              <a href="/placements" className="text-gray-800 hover:text-indigo-700 font-medium py-2 border-b-2 border-transparent hover:border-indigo-700 transition">
-                Placements
-              </a>
+             
               <a href="/contact" className="text-gray-800 hover:text-indigo-700 font-medium py-2 border-b-2 border-transparent hover:border-indigo-700 transition">
                 Contact
               </a>
@@ -216,21 +211,21 @@ function Navbar() {
               <div className="font-medium text-gray-800 mb-2">Courses</div>
               <div className="pl-4 space-y-2">
                 <a
-                  href="/courses/ba"
+                  href="/courses"
                   className="block py-2 text-gray-700 hover:text-indigo-700"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   B.A. Programs
                 </a>
                 <a
-                  href="/courses/bcom"
+                  href="/courses"
                   className="block py-2 text-gray-700 hover:text-indigo-700"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   B.Com Programs
                 </a>
                 <a
-                  href="/courses/certificate"
+                  href="/courses"
                   className="block py-2 text-gray-700 hover:text-indigo-700"
                   onClick={() => setIsMenuOpen(false)}
                 >
@@ -238,26 +233,14 @@ function Navbar() {
                 </a>
               </div>
             </div>
+          
+           
             <a
-              href="/faculty"
+              href="/Event"
               className="block px-4 py-3 text-gray-800 hover:bg-indigo-50 font-medium"
               onClick={() => setIsMenuOpen(false)}
             >
-              Faculty
-            </a>
-            <a
-              href="/placements"
-              className="block px-4 py-3 text-gray-800 hover:bg-indigo-50 font-medium"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Placements
-            </a>
-            <a
-              href="/contact"
-              className="block px-4 py-3 text-gray-800 hover:bg-indigo-50 font-medium"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Contact
+              Event
             </a>
             <div className="px-4 py-3">
               <a
