@@ -10,7 +10,7 @@ const CoursesPage = () => {
       <Navbar />
       
       {/* Hero Banner */}
-      <div className="relative bg-indigo-900 text-white py-20">
+      <div className="relative bg-orange-500 text-white py-20">
         <div className="absolute inset-0 bg-black/50 z-10"></div>
         <div className="container mx-auto px-4 relative z-20 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Academic Programs</h1>
@@ -26,7 +26,7 @@ const CoursesPage = () => {
           <nav className="flex" aria-label="Breadcrumb">
             <ol className="inline-flex items-center space-x-1 md:space-x-3">
               <li className="inline-flex items-center">
-                <a href="/" className="text-indigo-700 hover:text-indigo-900">Home</a>
+                <a href="/" className="text-orange-500 hover:text-orange-500">Home</a>
               </li>
               <li aria-current="page">
                 <div className="flex items-center">
@@ -44,7 +44,7 @@ const CoursesPage = () => {
         {/* Introduction */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Undergraduate Programs</h2>
-          <div className="w-20 h-1 bg-indigo-600 mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-orange-400 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Meerut College for Girls Education offers comprehensive undergraduate programs designed to provide 
             strong academic foundations while developing critical thinking and professional skills.
@@ -61,7 +61,7 @@ const CoursesPage = () => {
                 alt="B.A Students" 
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-indigo-900/80 to-transparent flex items-end p-6">
+              <div className="absolute inset-0 bg-gradient-to-t from-orange-500/80 to-transparent flex items-end p-6">
                 <h3 className="text-3xl font-bold text-white">Bachelor of Arts (B.A)</h3>
               </div>
             </div>
@@ -74,28 +74,28 @@ const CoursesPage = () => {
               
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="flex items-start">
-                  <FaGraduationCap className="text-indigo-700 mt-1 mr-3" />
+                  <FaGraduationCap className="text-orange-500 mt-1 mr-3" />
                   <div>
                     <h4 className="font-semibold text-gray-800">Degree</h4>
                     <p className="text-gray-600 text-sm">Bachelor of Arts</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <FaCalendarAlt className="text-indigo-700 mt-1 mr-3" />
+                  <FaCalendarAlt className="text-orange-500 mt-1 mr-3" />
                   <div>
                     <h4 className="font-semibold text-gray-800">Duration</h4>
                     <p className="text-gray-600 text-sm">3 Years (6 Semesters)</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <MdOutlineSchool className="text-indigo-700 mt-1 mr-3 text-xl" />
+                  <MdOutlineSchool className="text-orange-500 mt-1 mr-3 text-xl" />
                   <div>
                     <h4 className="font-semibold text-gray-800">Eligibility</h4>
                     <p className="text-gray-600 text-sm">10+2 in any stream</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <FaRupeeSign className="text-indigo-700 mt-1 mr-3" />
+                  <FaRupeeSign className="text-orange-500 mt-1 mr-3" />
                   <div>
                     <h4 className="font-semibold text-gray-800">Fees</h4>
                     <p className="text-gray-600 text-sm">₹12,500/year</p>
@@ -106,13 +106,13 @@ const CoursesPage = () => {
               <div className="mb-6">
                 <h4 className="font-semibold text-gray-800 mb-3">Specializations Offered:</h4>
                 <div className="flex flex-wrap gap-2">
-                  <span className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Hindi Literature</span>
-                  <span className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">English Literature</span>
-                  <span className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Political Science</span>
-                  <span className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">History</span>
-                  <span className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Economics</span>
-                  <span className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Sociology</span>
-                  <span className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Home Science</span>
+                  <span className="bg-orange-100 text-orange-500 px-3 py-1 rounded-full text-sm">Hindi Literature</span>
+                  <span className="bg-orange-100 text-orange-500 px-3 py-1 rounded-full text-sm">English Literature</span>
+                  <span className="bg-orange-100 text-orange-500 px-3 py-1 rounded-full text-sm">Political Science</span>
+                  <span className="bg-orange-100 text-orange-500 px-3 py-1 rounded-full text-sm">History</span>
+                  <span className="bg-orange-100 text-orange-500 px-3 py-1 rounded-full text-sm">Economics</span>
+                  <span className="bg-orange-100 text-orange-500 px-3 py-1 rounded-full text-sm">Sociology</span>
+                  <span className="bg-orange-100 text-orange-500 px-3 py-1 rounded-full text-sm">Home Science</span>
                 </div>
               </div>
               
@@ -120,19 +120,19 @@ const CoursesPage = () => {
                 <h4 className="font-semibold text-gray-800 mb-2">Program Highlights:</h4>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-start">
-                    <span className="text-indigo-700 mr-2">✓</span>
+                    <span className="text-orange-500 mr-2">✓</span>
                     <span>Interdisciplinary curriculum with flexible subject combinations</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-indigo-700 mr-2">✓</span>
+                    <span className="text-orange-500 mr-2">✓</span>
                     <span>Regular seminars and workshops with industry experts</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-indigo-700 mr-2">✓</span>
+                    <span className="text-orange-500 mr-2">✓</span>
                     <span>Focus on research and analytical skills development</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-indigo-700 mr-2">✓</span>
+                    <span className="text-orange-500 mr-2">✓</span>
                     <span>Value-added certificate courses in communication and digital skills</span>
                   </li>
                 </ul>
@@ -141,7 +141,7 @@ const CoursesPage = () => {
               <div className="flex flex-col sm:flex-row gap-3">
                 {/* <a 
                   href="/ba-program-details" 
-                  className="bg-white border border-indigo-700 text-indigo-700 hover:bg-indigo-50 px-6 py-3 rounded-lg font-medium text-center transition"
+                  className="bg-white border border-orange-500 text-orange-500 hover:bg-orange-50 px-6 py-3 rounded-lg font-medium text-center transition"
                 >
                   View Details
                 </a> */}
@@ -149,7 +149,7 @@ const CoursesPage = () => {
                   href="https://wa.me/919412523456?text=I'm%20interested%20in%20B.A%20program"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-indigo-700 hover:bg-indigo-800 text-white px-6 py-3 rounded-lg font-medium text-center transition"
+                  className="bg-orange-500 hover:bg-orange-500 text-white px-6 py-3 rounded-lg font-medium text-center transition"
                 >
                   Apply Now
                 </a>
@@ -165,7 +165,7 @@ const CoursesPage = () => {
                 alt="B.Com Students" 
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-indigo-900/80 to-transparent flex items-end p-6">
+              <div className="absolute inset-0 bg-gradient-to-t from-orange-500/80 to-transparent flex items-end p-6">
                 <h3 className="text-3xl font-bold text-white">Bachelor of Commerce (B.Com)</h3>
               </div>
             </div>
@@ -178,28 +178,28 @@ const CoursesPage = () => {
               
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="flex items-start">
-                  <FaGraduationCap className="text-indigo-700 mt-1 mr-3" />
+                  <FaGraduationCap className="text-orange-500 mt-1 mr-3" />
                   <div>
                     <h4 className="font-semibold text-gray-800">Degree</h4>
                     <p className="text-gray-600 text-sm">Bachelor of Commerce</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <FaCalendarAlt className="text-indigo-700 mt-1 mr-3" />
+                  <FaCalendarAlt className="text-orange-500 mt-1 mr-3" />
                   <div>
                     <h4 className="font-semibold text-gray-800">Duration</h4>
                     <p className="text-gray-600 text-sm">3 Years (6 Semesters)</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <MdOutlineSchool className="text-indigo-700 mt-1 mr-3 text-xl" />
+                  <MdOutlineSchool className="text-orange-500 mt-1 mr-3 text-xl" />
                   <div>
                     <h4 className="font-semibold text-gray-800">Eligibility</h4>
                     <p className="text-gray-600 text-sm">10+2 with Commerce</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <FaRupeeSign className="text-indigo-700 mt-1 mr-3" />
+                  <FaRupeeSign className="text-orange-500 mt-1 mr-3" />
                   <div>
                     <h4 className="font-semibold text-gray-800">Fees</h4>
                     <p className="text-gray-600 text-sm">₹15,000/year</p>
@@ -211,35 +211,35 @@ const CoursesPage = () => {
                 <h4 className="font-semibold text-gray-800 mb-3">Core Subjects:</h4>
                 <div className="grid grid-cols-2 gap-2 text-sm">
                   <div className="flex items-start">
-                    <span className="text-indigo-700 mr-2">•</span>
+                    <span className="text-orange-500 mr-2">•</span>
                     <span>Financial Accounting</span>
                   </div>
                   <div className="flex items-start">
-                    <span className="text-indigo-700 mr-2">•</span>
+                    <span className="text-orange-500 mr-2">•</span>
                     <span>Business Economics</span>
                   </div>
                   <div className="flex items-start">
-                    <span className="text-indigo-700 mr-2">•</span>
+                    <span className="text-orange-500 mr-2">•</span>
                     <span>Corporate Law</span>
                   </div>
                   <div className="flex items-start">
-                    <span className="text-indigo-700 mr-2">•</span>
+                    <span className="text-orange-500 mr-2">•</span>
                     <span>Cost Accounting</span>
                   </div>
                   <div className="flex items-start">
-                    <span className="text-indigo-700 mr-2">•</span>
+                    <span className="text-orange-500 mr-2">•</span>
                     <span>Income Tax</span>
                   </div>
                   <div className="flex items-start">
-                    <span className="text-indigo-700 mr-2">•</span>
+                    <span className="text-orange-500 mr-2">•</span>
                     <span>Business Statistics</span>
                   </div>
                   <div className="flex items-start">
-                    <span className="text-indigo-700 mr-2">•</span>
+                    <span className="text-orange-500 mr-2">•</span>
                     <span>Banking & Finance</span>
                   </div>
                   <div className="flex items-start">
-                    <span className="text-indigo-700 mr-2">•</span>
+                    <span className="text-orange-500 mr-2">•</span>
                     <span>Marketing Management</span>
                   </div>
                 </div>
@@ -249,19 +249,19 @@ const CoursesPage = () => {
                 <h4 className="font-semibold text-gray-800 mb-2">Career Opportunities:</h4>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-start">
-                    <span className="text-indigo-700 mr-2">✓</span>
+                    <span className="text-orange-500 mr-2">✓</span>
                     <span>Accounting and Auditing roles in firms</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-indigo-700 mr-2">✓</span>
+                    <span className="text-orange-500 mr-2">✓</span>
                     <span>Banking and financial services careers</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-indigo-700 mr-2">✓</span>
+                    <span className="text-orange-500 mr-2">✓</span>
                     <span>Corporate sector jobs in finance and marketing</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-indigo-700 mr-2">✓</span>
+                    <span className="text-orange-500 mr-2">✓</span>
                     <span>Preparation for CA, CS, and CMA certifications</span>
                   </li>
                 </ul>
@@ -270,7 +270,7 @@ const CoursesPage = () => {
               <div className="flex flex-col sm:flex-row gap-3">
                 {/* <a 
                   href="/bcom-program-details" 
-                  className="bg-white border border-indigo-700 text-indigo-700 hover:bg-indigo-50 px-6 py-3 rounded-lg font-medium text-center transition"
+                  className="bg-white border border-orange-500 text-orange-500 hover:bg-orange-50 px-6 py-3 rounded-lg font-medium text-center transition"
                 >
                   View Details
                 </a> */}
@@ -278,7 +278,7 @@ const CoursesPage = () => {
                   href="https://wa.me/919412523456?text=I'm%20interested%20in%20B.Com%20program"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-indigo-700 hover:bg-indigo-800 text-white px-6 py-3 rounded-lg font-medium text-center transition"
+                  className="bg-orange-500 hover:bg-orange-500 text-white px-6 py-3 rounded-lg font-medium text-center transition"
                 >
                   Apply Now
                 </a>
@@ -294,8 +294,8 @@ const CoursesPage = () => {
           <div className="grid md:grid-cols-3 gap-6">
             {/* Certificate Programs */}
             <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-              <div className="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                <MdOutlineLibraryBooks className="text-indigo-700 text-2xl" />
+              <div className="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                <MdOutlineLibraryBooks className="text-orange-500 text-2xl" />
               </div>
               <h4 className="text-xl font-semibold text-gray-800 mb-3">Certificate Programs</h4>
               <p className="text-gray-600 mb-4">
@@ -303,15 +303,15 @@ const CoursesPage = () => {
               </p>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-indigo-700 mr-2">•</span>
+                  <span className="text-orange-500 mr-2">•</span>
                   <span>Digital Marketing</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-indigo-700 mr-2">•</span>
+                  <span className="text-orange-500 mr-2">•</span>
                   <span>Financial Accounting with Tally</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-indigo-700 mr-2">•</span>
+                  <span className="text-orange-500 mr-2">•</span>
                   <span>Communication Skills</span>
                 </li>
               </ul>
@@ -319,8 +319,8 @@ const CoursesPage = () => {
             
             {/* Internship Support */}
             <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-              <div className="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                <MdOutlineWorkspaces className="text-indigo-700 text-2xl" />
+              <div className="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                <MdOutlineWorkspaces className="text-orange-500 text-2xl" />
               </div>
               <h4 className="text-xl font-semibold text-gray-800 mb-3">Internship Support</h4>
               <p className="text-gray-600 mb-4">
@@ -328,15 +328,15 @@ const CoursesPage = () => {
               </p>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-indigo-700 mr-2">•</span>
+                  <span className="text-orange-500 mr-2">•</span>
                   <span>Accounting firms</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-indigo-700 mr-2">•</span>
+                  <span className="text-orange-500 mr-2">•</span>
                   <span>Educational institutions</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-indigo-700 mr-2">•</span>
+                  <span className="text-orange-500 mr-2">•</span>
                   <span>NGOs and social organizations</span>
                 </li>
               </ul>
@@ -344,8 +344,8 @@ const CoursesPage = () => {
             
             {/* Placement Assistance */}
             <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-              <div className="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                <FaUserGraduate className="text-indigo-700 text-2xl" />
+              <div className="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                <FaUserGraduate className="text-orange-500 text-2xl" />
               </div>
               <h4 className="text-xl font-semibold text-gray-800 mb-3">Placement Assistance</h4>
               <p className="text-gray-600 mb-4">
@@ -353,15 +353,15 @@ const CoursesPage = () => {
               </p>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-indigo-700 mr-2">•</span>
+                  <span className="text-orange-500 mr-2">•</span>
                   <span>Resume building workshops</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-indigo-700 mr-2">•</span>
+                  <span className="text-orange-500 mr-2">•</span>
                   <span>Interview preparation sessions</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-indigo-700 mr-2">•</span>
+                  <span className="text-orange-500 mr-2">•</span>
                   <span>Campus recruitment drives</span>
                 </li>
               </ul>
@@ -417,13 +417,13 @@ const CoursesPage = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href="tel:+919412523456" 
-              className="bg-indigo-700 hover:bg-indigo-800 text-white px-6 py-3 rounded-lg font-medium transition"
+              className="bg-orange-500 hover:bg-orange-500 text-white px-6 py-3 rounded-lg font-medium transition"
             >
               Call Admission Office
             </a>
             <a 
               href="/contact" 
-              className="bg-white border border-indigo-700 text-indigo-700 hover:bg-indigo-50 px-6 py-3 rounded-lg font-medium transition"
+              className="bg-white border border-orange-500 text-orange-500 hover:bg-orange-50 px-6 py-3 rounded-lg font-medium transition"
             >
               Visit Campus
             </a>

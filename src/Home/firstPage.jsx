@@ -151,12 +151,12 @@ export default function Home() {
                                 href="https://wa.me/919897506153?text=I%20am%20interested%20in%20taking%20admission%20in%20your%20college"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-indigo-700 hover:bg-indigo-800 text-white px-6 py-3 rounded-lg font-medium text-lg transition"
+                                className="bg-orange-500 hover:bg-orange-500 text-white px-6 py-3 rounded-lg font-medium text-lg transition"
                             >
                                 Apply Now
                             </a>
 
-                            <Link to="/courses" className="bg-white hover:bg-gray-100 text-indigo-700 px-6 py-3 rounded-lg font-medium text-lg transition">
+                            <Link to="/courses" className="bg-white hover:bg-gray-100 text-orange-500 px-6 py-3 rounded-lg font-medium text-lg transition">
                                 Explore Courses
                             </Link>
                         </div>
@@ -213,7 +213,7 @@ export default function Home() {
             </div>
 
             {/* Quick Stats */}
-            <div className="bg-indigo-800 text-white py-12">
+            <div className="bg-orange-500 text-white py-12">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
                         {stats.map((stat) => (
@@ -231,7 +231,7 @@ export default function Home() {
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">About Meerut College For Girls Education</h2>
-                        <div className="w-20 h-1 bg-indigo-600 mx-auto"></div>
+                        <div className="w-20 h-1 bg-orange-400 mx-auto"></div>
                     </div>
 
                     <div className="flex flex-col md:flex-row gap-8 items-center">
@@ -250,7 +250,7 @@ export default function Home() {
                             <p className="text-gray-600 mb-6">
                                 We provide a safe, inclusive, and intellectually stimulating environment where young women can explore their potential, develop critical thinking skills, and prepare for successful careers and meaningful lives.
                             </p>
-                            <Link to="/about" className="inline-flex items-center text-indigo-700 font-medium">
+                            <Link to="/about" className="inline-flex items-center text-orange-500 font-medium">
                                 Learn More About Us
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
                                     <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -267,15 +267,15 @@ export default function Home() {
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Courses</h2>
                         <p className="text-gray-600 max-w-2xl mx-auto">Quality education programs designed to empower our students</p>
-                        <div className="w-20 h-1 bg-indigo-600 mx-auto mt-4"></div>
+                        <div className="w-20 h-1 bg-orange-400 mx-auto mt-4"></div>
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-8">
                         {courses.map((course, index) => (
                             <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
                                 <div className="flex items-start mb-4">
-                                    <div className="bg-indigo-100 p-3 rounded-full mr-4">
-                                        <course.icon className="text-indigo-700 text-2xl" />
+                                    <div className="bg-orange-100 p-3 rounded-full mr-4">
+                                        <course.icon className="text-orange-500 text-2xl" />
                                     </div>
                                     <div>
                                         <h3 className="text-xl font-semibold text-gray-800">{course.name}</h3>
@@ -286,7 +286,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <p className="text-gray-600 mb-4">{course.description}</p>
-                                <Link to={`/courses/${course.name.toLowerCase().replace(' ', '-')}`} className="text-indigo-700 font-medium inline-flex items-center">
+                                <Link to={`/courses/${course.name.toLowerCase().replace(' ', '-')}`} className="text-orange-500 font-medium inline-flex items-center">
                                     Course Details
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
@@ -297,7 +297,7 @@ export default function Home() {
                     </div>
 
                     <div className="text-center mt-12">
-                        <Link to="/courses" className="bg-indigo-700 hover:bg-indigo-800 text-white px-8 py-3 rounded-lg font-medium inline-block transition">
+                        <Link to="/courses" className="bg-orange-500 hover:bg-orange-500 text-white px-8 py-3 rounded-lg font-medium inline-block transition">
                             View All Courses
                         </Link>
                     </div>
@@ -309,14 +309,14 @@ export default function Home() {
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Why Choose Our College?</h2>
-                        <div className="w-20 h-1 bg-indigo-600 mx-auto"></div>
+                        <div className="w-20 h-1 bg-orange-400 mx-auto"></div>
                     </div>
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {features.map((feature, index) => (
                             <div key={index} className="bg-gray-50 p-6 rounded-lg text-center hover:shadow-md transition">
-                                <div className="bg-indigo-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                                    <feature.icon className="text-indigo-700 text-2xl" />
+                                <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <feature.icon className="text-orange-500 text-2xl" />
                                 </div>
                                 <h3 className="text-xl font-semibold text-gray-800 mb-2">{feature.name}</h3>
                                 <p className="text-gray-600">{feature.description}</p>
@@ -327,11 +327,11 @@ export default function Home() {
             </section>
             <Gallery />
             {/* Testimonials */}
-            <section className="py-16 bg-indigo-50">
+            <section className="py-16 bg-orange-50">
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">What People Say About Us</h2>
-                        <div className="w-20 h-1 bg-indigo-600 mx-auto"></div>
+                        <div className="w-20 h-1 bg-orange-400 mx-auto"></div>
                     </div>
 
                     <Testimonials testimonials={people} />
@@ -339,12 +339,12 @@ export default function Home() {
             </section>
 
             {/* Call to Action
-            <section className="py-16 bg-indigo-800 text-white">
+            <section className="py-16 bg-orange-500 text-white">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Start Your Journey?</h2>
                     <p className="text-xl mb-8 max-w-2xl mx-auto">Join our community of empowered women and take the first step towards a brighter future.</p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <Link to="/admissions" className="bg-white hover:bg-gray-100 text-indigo-800 px-8 py-3 rounded-lg font-medium text-lg transition">
+                        <Link to="/admissions" className="bg-white hover:bg-gray-100 text-orange-500 px-8 py-3 rounded-lg font-medium text-lg transition">
                             Apply Now
                         </Link>
                         <Link to="/contact" className="border-2 border-white hover:bg-white/10 px-8 py-3 rounded-lg font-medium text-lg transition">
@@ -359,9 +359,9 @@ export default function Home() {
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Affiliations & Recognitions</h2>
-                        <div className="w-20 h-1 bg-indigo-600 mx-auto"></div>
+                        <div className="w-20 h-1 bg-orange-400 mx-auto"></div>
                         <p className="text-gray-600 max-w-2xl mx-auto text-base md:text-lg">
-                            Meerut College for Girls takes pride in its prestigious affiliations and accreditations. Our commitment to academic excellence is reflected through our affiliation with <span className="text-indigo-700 font-semibold">Chaudhary Charan Singh University (CCSU)</span> and our recognition with a <span className="text-green-700 font-semibold">NAAC A++</span> grade — the highest level of accreditation for quality education in India.
+                            Meerut College for Girls takes pride in its prestigious affiliations and accreditations. Our commitment to academic excellence is reflected through our affiliation with <span className="text-orange-500 font-semibold">Chaudhary Charan Singh University (CCSU)</span> and our recognition with a <span className="text-green-700 font-semibold">NAAC A++</span> grade — the highest level of accreditation for quality education in India.
                         </p>
                     </div>
 
@@ -370,7 +370,7 @@ export default function Home() {
                         <div className="max-w-xs p-6 border rounded-lg shadow hover:shadow-lg transition duration-300">
                             <img src="CCSU-Logo.jpg" alt="CCSU Logo" className="w-24 h-24 mx-auto mb-4" />
                             <h3 className="text-xl font-semibold text-gray-700">Affiliated to</h3>
-                            <p className="text-indigo-700 font-bold mt-2">Chaudhary Charan Singh University (CCSU), Meerut</p>
+                            <p className="text-orange-500 font-bold mt-2">Chaudhary Charan Singh University (CCSU), Meerut</p>
                         </div>
 
                         {/* NAAC Accreditation */}

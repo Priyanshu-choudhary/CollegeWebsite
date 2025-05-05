@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white pt-12 pb-6">
       {/* Call to Action */}
-      <div className="bg-indigo-800 py-8 mb-12">
+      <div className="bg-orange-500 py-8 mb-12">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Ready to Begin Your Educational Journey?</h2>
           <p className="text-lg mb-6 max-w-2xl mx-auto">Admissions open for B.A. and B.Com programs 2024-25</p>
@@ -14,7 +14,7 @@ const Footer = () => {
               href="https://wa.me/919412523456?text=I'm%20interested%20in%20admission."
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white hover:bg-gray-100 text-indigo-800 px-6 py-3 rounded-lg font-medium transition flex items-center justify-center gap-2"
+              className="bg-white hover:bg-gray-100 text-orange-500 px-6 py-3 rounded-lg font-medium transition flex items-center justify-center gap-2"
             >
               <span>Apply via WhatsApp</span>
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -36,7 +36,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* College Info */}
           <div className="mb-6">
-            <h3 className="text-xl font-bold mb-4 border-b border-indigo-600 pb-2">Meerut College For Girls Education</h3>
+            <h3 className="text-xl font-bold mb-4 border-b border-orange-400 pb-2">Meerut College For Girls Education</h3>
             <p className="mb-4 text-gray-300">
               A premier institution dedicated to women's education and empowerment in Meerut, Uttar Pradesh.
             </p>
@@ -61,7 +61,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div className="mb-6">
-            <h3 className="text-xl font-bold mb-4 border-b border-indigo-600 pb-2">Quick Links</h3>
+            <h3 className="text-xl font-bold mb-4 border-b border-orange-400 pb-2">Quick Links</h3>
             <ul className="space-y-2">
               <li><a href="/" className="text-gray-300 hover:text-white transition">Home</a></li>
               <li><a href="/about" className="text-gray-300 hover:text-white transition">About Us</a></li>
@@ -75,7 +75,7 @@ const Footer = () => {
 
           {/* Courses */}
           <div className="mb-6">
-            <h3 className="text-xl font-bold mb-4 border-b border-indigo-600 pb-2">Our Courses</h3>
+            <h3 className="text-xl font-bold mb-4 border-b border-orange-400 pb-2">Our Courses</h3>
             <ul className="space-y-2">
               <li><a href="/courses" className="text-gray-300 hover:text-white transition">Bachelor of Arts (B.A.)</a></li>
               <li><a href="/courses" className="text-gray-300 hover:text-white transition">Bachelor of Commerce (B.Com)</a></li>
@@ -87,7 +87,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div className="mb-6">
-            <h3 className="text-xl font-bold mb-4 border-b border-indigo-600 pb-2">Contact Us</h3>
+            <h3 className="text-xl font-bold mb-4 border-b border-orange-400 pb-2">Contact Us</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
                 <FaMapMarkerAlt className="mt-1 mr-3 flex-shrink-0" />

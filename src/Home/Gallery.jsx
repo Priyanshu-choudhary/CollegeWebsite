@@ -62,7 +62,7 @@ const Gallery = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Campus Gallery</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">Explore our campus through these glimpses of academic life and facilities</p>
-          <div className="w-20 h-1 bg-indigo-600 mx-auto mt-4"></div>
+          <div className="w-20 h-1 bg-orange-400 mx-auto mt-4"></div>
         </div>
 
         {/* Gallery Grid */}
@@ -90,7 +90,7 @@ const Gallery = () => {
           <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4">
             <button 
               onClick={() => setIsViewerOpen(false)}
-              className="absolute top-6 right-6 text-white text-2xl hover:text-indigo-300 transition"
+              className="absolute top-6 right-6 text-white text-2xl hover:text-orange-300 transition"
             >
               <FaTimes />
             </button>
