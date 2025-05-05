@@ -6,11 +6,13 @@ import Navbr from './NavBr/Navbar';
 
 import Courses from './Courses/Courses';
 import Events from './Events/Events';
+import AdmissionPopup from './PopUp';
 
 
 function App() {
   return (
     <Router>
+      <AdmissionPopup/>
       <Routes>
        
         <Route path="/" element={<Home />} />
