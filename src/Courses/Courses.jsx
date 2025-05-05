@@ -98,7 +98,7 @@ const CoursesPage = () => {
                   <FaRupeeSign className="text-orange-500 mt-1 mr-3" />
                   <div>
                     <h4 className="font-semibold text-gray-800">Fees</h4>
-                    <p className="text-gray-600 text-sm">₹12,500/year</p>
+                    <p className="text-gray-600 text-sm">₹7000/year</p>
                   </div>
                 </div>
               </div>
@@ -202,7 +202,7 @@ const CoursesPage = () => {
                   <FaRupeeSign className="text-orange-500 mt-1 mr-3" />
                   <div>
                     <h4 className="font-semibold text-gray-800">Fees</h4>
-                    <p className="text-gray-600 text-sm">₹15,000/year</p>
+                    <p className="text-gray-600 text-sm">₹7000/year</p>
                   </div>
                 </div>
               </div>
@@ -289,7 +289,7 @@ const CoursesPage = () => {
           <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition">
             <div className="relative h-64 overflow-hidden">
               <img
-                src="books.webp"
+                src="MA.png"
                 alt="B.A Students"
                 className="w-full h-full object-cover"
               />
@@ -326,13 +326,7 @@ const CoursesPage = () => {
                     <p className="text-gray-600 text-sm">Bachelor’s degree in any discipline</p>
                   </div>
                 </div>
-                <div className="flex items-start">
-                  <FaRupeeSign className="text-orange-500 mt-1 mr-3" />
-                  <div>
-                    <h4 className="font-semibold text-gray-800">Fees</h4>
-                    <p className="text-gray-600 text-sm">₹12,000/year</p>
-                  </div>
-                </div>
+                
               </div>
 
               <div className="mb-6">
@@ -381,7 +375,7 @@ const CoursesPage = () => {
           <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition">
             <div className="relative h-64 overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                src="MCA.png"
                 alt="B.Com Students"
                 className="w-full h-full object-cover"
               />
@@ -418,13 +412,7 @@ const CoursesPage = () => {
                     <p className="text-gray-600 text-sm">BCA or B.Sc (CS/IT) or equivalent</p>
                   </div>
                 </div>
-                <div className="flex items-start">
-                  <FaRupeeSign className="text-orange-500 mt-1 mr-3" />
-                  <div>
-                    <h4 className="font-semibold text-gray-800">Fees</h4>
-                    <p className="text-gray-600 text-sm">₹25,000/year</p>
-                  </div>
-                </div>
+               
               </div>
 
               <div className="mb-6">

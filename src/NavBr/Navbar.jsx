@@ -11,44 +11,60 @@ function Navbar() {
 
   return (
     <div className="bg-white shadow-md">
-      {/* Top Info Bar */}
-      <div className="bg-orange-500 text-white text-xs sm:text-sm py-1.5 px-4 border-b border-orange-500">
-        <div className="container  flex flex-col sm:flex-row justify-between items-center gap-1 sm:gap-0">
-          {/* Left Info - Address & Badges */}
-          <div className="flex justify-between">
-            <FaMapMarkerAlt className="mr-1.5 text-white" />
-            <span className=" max-w-[180px] xs:max-w-[220px] sm:max-w-none">
-              Meerut College for Girls Education, Chitwana Sherpur, Kila-Asifabad Road, Meerut
-            </span>
+      {/* Top Info Bar - Optimized for Mobile & Desktop */}
+      <div className="bg-orange-600 text-white text-xs sm:text-sm py-2 px-2 sm:px-4 border-b border-orange-700">
+        <div className="container mx-auto">
+          {/* Mobile Layout (stacked) */}
+          <div className="sm:hidden flex flex-col gap-2">
+            {/* Address Row */}
+            <div className="flex items-start">
+              <FaMapMarkerAlt className="flex-shrink-0 mt-0.5 mr-1.5 text-white" />
+              <span className="">
+                Meerut College for Girls Education, Chitwana Sherpur, Kila-Asifabad Road, Meerut
+              </span>
+            </div>
 
-            {/* Accreditation Badges - Only visible on larger screens */}
-            <div className="hidden sm:flex items-center ml-3 gap-2 min-w-fit mr-5">
-              <div className="bg-white/90 px-2 py-0.5 rounded-sm border border-orange-300 shadow-xs w-fit">
-                <span className="text-black font-bold text-xs">Affiliated by CCS University (NAAC A++) </span>
+            {/* Phone & Badge Row */}
+            <div className="flex justify-between items-center">
+              <div className="flex items-center">
+                <a href="tel:+919412523456" className="hover:underline flex items-center">
+                  <FaPhone className="transform scale-x-[-1] mr-1.5 text-white" />
+                  +91-9412523456
+                </a>
               </div>
 
+              <div className="bg-white/90 px-2 py-1 rounded-sm border border-orange-300 shadow-xs">
+                <span className="text-black font-bold text-xs">CCS University (NAAC A++)</span>
+              </div>
             </div>
           </div>
 
-          {/* Right Contact Info */}
-          <div className="flex items-center">
-            <a href="tel:+919412523456" className="hover:underline flex items-center">
-              <FaPhone className="transform scale-x-[-1] mr-1.5 text-white" /> {/* Mirrored phone icon */}
-              +91-9412523456
-            </a>
-            <span className="mx-2 hidden sm:inline">|</span>
-            <a href="tel:+919897506153" className="hover:underline hidden sm:inline">
-              +91-9897506153
-            </a>
-          </div>
-        </div>
+          {/* Desktop Layout (inline) */}
+          <div className="hidden sm:flex justify-between items-center">
+            {/* Left Side - Address & Badge */}
+            <div className="flex items-center">
+              <FaMapMarkerAlt className="mr-2 text-white flex-shrink-0" />
+              <span className=" max-w-[50ch]">
+                Meerut College for Girls Education, Chitwana Sherpur, Kila-Asifabad Road, Meerut
+              </span>
 
-        {/* Accreditation Badges - For mobile */}
-        <div className="sm:hidden flex justify-center mt-1 gap-2">
-          <div className="bg-white/90 px-2 py-0.5 rounded-sm border border-orange-300 shadow-xs">
-            <span className="text-black font-bold text-xs">Affiliated by CCS University (NAAC A++) </span>
+              <div className="ml-3 bg-white/90 px-2 py-0.5 rounded-sm border border-orange-300 shadow-xs">
+                <span className="text-black font-bold text-xs">Affiliated by CCS University (NAAC A++)</span>
+              </div>
+            </div>
+
+            {/* Right Side - Phone Numbers */}
+            <div className="flex items-center">
+              <a href="tel:+919412523456" className="hover:underline flex items-center">
+                <FaPhone className="transform scale-x-[-1] mr-1.5 text-white" />
+                +91-9412523456
+              </a>
+              <span className="mx-2">|</span>
+              <a href="tel:+919897506153" className="hover:underline">
+                +91-9897506153
+              </a>
+            </div>
           </div>
-         
         </div>
       </div>
 
@@ -62,8 +78,8 @@ function Navbar() {
             <div>
               <h1 className="text-xl font-bold text-gray-800">Meerut College For Girls Education</h1>
               <p className="inline-block border text-sm border-gray-300 rounded-md px-2 py-1 mb-2">
-  College code: <strong>300</strong>
-</p>
+                College code: <strong>300</strong>
+              </p>
 
               {/* <p className="text-xl font-bold text-gray-800"></p> */}
             </div>
@@ -75,7 +91,7 @@ function Navbar() {
               <a href="/" className="text-gray-800 hover:text-orange-500 font-medium py-2 border-b-2 border-transparent hover:border-orange-500 transition">
                 Home
               </a>
-              <a href="/about" className="text-gray-800 hover:text-orange-500 font-medium py-2 border-b-2 border-transparent hover:border-orange-500 transition">
+              <a href="#about" className="text-gray-800 hover:text-orange-500 font-medium py-2 border-b-2 border-transparent hover:border-orange-500 transition">
                 About
               </a>
               <div className="relative group">
@@ -177,7 +193,7 @@ function Navbar() {
 
 
 
-              <a href="/contact" className="text-gray-800 hover:text-orange-500 font-medium py-2 border-b-2 border-transparent hover:border-orange-500 transition">
+              <a href="#contact" className="text-gray-800 hover:text-orange-500 font-medium py-2 border-b-2 border-transparent hover:border-orange-500 transition">
                 Contact
               </a>
             </div>
@@ -192,7 +208,9 @@ function Navbar() {
                 <FaSearch className="text-lg" />
               </button> */}
               <a
-                href="/admissions"
+                href="https://wa.me/919897506153?text=I%20am%20interested%20in%20taking%20admission%20in%20your%20college"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-orange-500 hover:bg-orange-500 text-white px-4 py-2 rounded-md font-medium transition"
               >
                 Admissions
@@ -202,13 +220,13 @@ function Navbar() {
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center space-x-4">
-            <button
+            {/* <button
               onClick={() => setSearchOpen(!searchOpen)}
               className="text-gray-600 hover:text-orange-500 transition"
               aria-label="Search"
             >
               <FaSearch className="text-lg" />
-            </button>
+            </button> */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="text-gray-600 hover:text-orange-500 transition"
@@ -246,7 +264,7 @@ function Navbar() {
               Home
             </a>
             <a
-              href="/about"
+              href="#about"
               className="block px-4 py-3 text-gray-800 hover:bg-orange-50 font-medium"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -281,7 +299,7 @@ function Navbar() {
                   className="block py-2 text-gray-700 hover:text-orange-500"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                 M.C.A Programs
+                  M.C.A Programs
                 </a>
                 <a
                   href="/courses"
@@ -292,18 +310,21 @@ function Navbar() {
                 </a>
               </div>
             </div>
-
-
             <a
-              href="/Event"
+              href="#contact"
               className="block px-4 py-3 text-gray-800 hover:bg-orange-50 font-medium"
               onClick={() => setIsMenuOpen(false)}
             >
-              Event
+              Contact
             </a>
+
+
+           
             <div className="px-4 py-3">
               <a
-                href="/admissions"
+                href="https://wa.me/919897506153?text=I%20am%20interested%20in%20taking%20admission%20in%20your%20college"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block w-full text-center bg-orange-500 hover:bg-orange-500 text-white px-4 py-2 rounded-md font-medium transition"
                 onClick={() => setIsMenuOpen(false)}
               >
