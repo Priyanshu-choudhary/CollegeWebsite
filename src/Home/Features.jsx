@@ -48,10 +48,10 @@ export default function Features() {
             </div>
           </div>
           <img
-            alt="woman-standing"
-            src="woman-standing.jpg"
-            width={202}
-            height={102}
+          style={{height:600}}
+            alt="ColgPic1.jpg"
+            src="clgPic1.jpg"
+           
             className="w-[45rem] max-w-none rounded-xl ring-1 shadow-xl ring-gray-400/10 sm:w-[40rem] md:-ml-4 lg:-ml-0"
           />
         </div>

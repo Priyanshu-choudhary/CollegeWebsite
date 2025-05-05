@@ -17,7 +17,7 @@ export default function Testimonials() {
     //   img: "patron.jpg",
     // },
   ];
-
+ 
   const [index, setIndex] = useState(0);
   const [slideDirection, setSlideDirection] = useState("translate-x-0");
 

@@ -32,7 +32,7 @@
     border-radius: 5%;
     padding: 20px;
     margin-right: 10px;
-    height: 400px;
+    height: fit-content;
   }
   
   .probootstrap-text h3 {
