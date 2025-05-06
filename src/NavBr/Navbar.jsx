@@ -159,7 +159,7 @@ function Navbar() {
                     >
                       <MdOutlineLibraryBooks className="mr-2 text-orange-400 text-lg" />
                       <div>
-                        <div className="font-medium">M.C.A Programs</div>
+                        <div className="font-medium">M.Com Programs</div>
                         <div className="text-xs text-gray-500 mt-1">Commerce and Business</div>
                       </div>
                     </a>
@@ -299,7 +299,7 @@ function Navbar() {
                   className="block py-2 text-gray-700 hover:text-orange-500"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  M.C.A Programs
+                  M.Com Programs
                 </a>
                 <a
                   href="/courses"

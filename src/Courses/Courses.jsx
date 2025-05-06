@@ -43,10 +43,10 @@ const CoursesPage = () => {
       <div className="container mx-auto px-4 py-12">
         {/* Introduction */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Undergraduate Programs</h2>
+          {/* <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Undergraduate Programs</h2> */}
           <div className="w-20 h-1 bg-orange-400 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Meerut College for Girls Education offers comprehensive undergraduate programs designed to provide
+           <strong> Meerut College for Girls Education</strong> offers comprehensive undergraduate programs designed to provide
             strong academic foundations while developing critical thinking and professional skills.
           </p>
         </div>
@@ -103,16 +103,39 @@ const CoursesPage = () => {
                 </div>
               </div>
 
+             
               <div className="mb-6">
-                <h4 className="font-semibold text-gray-800 mb-3">Specializations Offered:</h4>
-                <div className="flex flex-wrap gap-2">
-                  <span className="bg-orange-100 text-orange-500 px-3 py-1 rounded-full text-sm">Hindi Literature</span>
-                  <span className="bg-orange-100 text-orange-500 px-3 py-1 rounded-full text-sm">English Literature</span>
-                  <span className="bg-orange-100 text-orange-500 px-3 py-1 rounded-full text-sm">Political Science</span>
-                  <span className="bg-orange-100 text-orange-500 px-3 py-1 rounded-full text-sm">History</span>
-                  <span className="bg-orange-100 text-orange-500 px-3 py-1 rounded-full text-sm">Economics</span>
-                  <span className="bg-orange-100 text-orange-500 px-3 py-1 rounded-full text-sm">Sociology</span>
-                  <span className="bg-orange-100 text-orange-500 px-3 py-1 rounded-full text-sm">Home Science</span>
+                <h4 className="font-semibold text-gray-800 mb-3">Core Subjects:</h4>
+                <div className="grid grid-cols-1 gap-2 text-sm">
+                  <div className="flex items-start">
+                    <span className="text-orange-500 mr-2">•</span>
+                    <span>Hindi Literature</span>
+                  </div>
+                  <div className="flex items-start">
+                    <span className="text-orange-500 mr-2">•</span>
+                    <span>English Literature</span>
+                  </div>
+                  <div className="flex items-start">
+                    <span className="text-orange-500 mr-2">•</span>
+                    <span>Political Science</span>
+                  </div>
+                  <div className="flex items-start">
+                    <span className="text-orange-500 mr-2">•</span>
+                    <span>History</span>
+                  </div>
+                  <div className="flex items-start">
+                    <span className="text-orange-500 mr-2">•</span>
+                    <span>Sociology</span>
+                  </div>
+                  <div className="flex items-start">
+                    <span className="text-orange-500 mr-2">•</span>
+                    <span>Sociology</span>
+                  </div>
+                  <div className="flex items-start">
+                    <span className="text-orange-500 mr-2">•</span>
+                    <span>Home Science</span>
+                  </div>
+                  
                 </div>
               </div>
 
@@ -326,7 +349,7 @@ const CoursesPage = () => {
                     <p className="text-gray-600 text-sm">Bachelor’s degree in any discipline</p>
                   </div>
                 </div>
-                
+
               </div>
 
               <div className="mb-6">
@@ -371,7 +394,7 @@ const CoursesPage = () => {
             </div>
           </div>
 
-          {/* B.Com Program */}
+          {/* M.A Program */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition">
             <div className="relative h-64 overflow-hidden">
               <img
@@ -380,22 +403,20 @@ const CoursesPage = () => {
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-orange-400/60 to-transparent flex items-end p-6">
-                <h3 className="text-3xl font-bold text-white">Master of Computer Applications (M.C.A)</h3>
+                <h3 className="text-3xl font-bold text-white">Master of Commerce (M.Com)</h3>
               </div>
             </div>
 
             <div className="p-6">
               <p className="text-gray-600 mb-6">
-                The MCA program is designed to develop advanced skills in software development, system design, and IT project management.
-                With a strong foundation in computer science, students are equipped to build innovative tech solutions.
+                The M.Com program provides advanced knowledge in commerce, finance, accounting, and economics. It prepares students for roles in corporate finance, banking, taxation, and academic research with a strong theoretical and practical foundation.
               </p>
-
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="flex items-start">
                   <FaGraduationCap className="text-orange-500 mt-1 mr-3" />
                   <div>
                     <h4 className="font-semibold text-gray-800">Degree</h4>
-                    <p className="text-gray-600 text-sm">Master of Computer Applications</p>
+                    <p className="text-gray-600 text-sm">Master of Commerce</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -409,33 +430,33 @@ const CoursesPage = () => {
                   <MdOutlineSchool className="text-orange-500 mt-1 mr-3 text-xl" />
                   <div>
                     <h4 className="font-semibold text-gray-800">Eligibility</h4>
-                    <p className="text-gray-600 text-sm">BCA or B.Sc (CS/IT) or equivalent</p>
+                    <p className="text-gray-600 text-sm">B.Com or equivalent degree</p>
                   </div>
                 </div>
-               
               </div>
 
               <div className="mb-6">
                 <h4 className="font-semibold text-gray-800 mb-3">Core Subjects:</h4>
                 <div className="grid grid-cols-2 gap-2 text-sm">
-                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Data Structures & Algorithms</span></div>
-                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Database Management Systems</span></div>
-                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Operating Systems</span></div>
-                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Software Engineering</span></div>
-                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Computer Networks</span></div>
-                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Web Technologies</span></div>
-                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Machine Learning</span></div>
-                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Cloud Computing</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Advanced Financial Accounting</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Corporate Law & Governance</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Managerial Economics</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Business Statistics</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Taxation Laws and Practices</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Financial Management</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>International Business</span></div>
+                  <div className="flex items-start"><span className="text-orange-500 mr-2">•</span><span>Research Methodology</span></div>
                 </div>
               </div>
 
               <div className="mb-6">
                 <h4 className="font-semibold text-gray-800 mb-2">Career Opportunities:</h4>
                 <ul className="space-y-2 text-gray-600">
-                  <li className="flex items-start"><span className="text-orange-500 mr-2">✓</span><span>Software Developer / Engineer</span></li>
-                  <li className="flex items-start"><span className="text-orange-500 mr-2">✓</span><span>Database Administrator</span></li>
-                  <li className="flex items-start"><span className="text-orange-500 mr-2">✓</span><span>Data Analyst / Data Scientist</span></li>
-                  <li className="flex items-start"><span className="text-orange-500 mr-2">✓</span><span>System Architect or IT Consultant</span></li>
+                  <li className="flex items-start"><span className="text-orange-500 mr-2">✓</span><span>Chartered Accountant (with further qualifications)</span></li>
+                  <li className="flex items-start"><span className="text-orange-500 mr-2">✓</span><span>Financial Analyst or Consultant</span></li>
+                  <li className="flex items-start"><span className="text-orange-500 mr-2">✓</span><span>Tax Consultant</span></li>
+                  <li className="flex items-start"><span className="text-orange-500 mr-2">✓</span><span>Banking & Insurance Sector Jobs</span></li>
+                  <li className="flex items-start"><span className="text-orange-500 mr-2">✓</span><span>Academician / Lecturer</span></li>
                 </ul>
               </div>
 
