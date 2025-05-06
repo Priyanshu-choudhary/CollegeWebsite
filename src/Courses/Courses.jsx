@@ -111,13 +111,14 @@ const CoursesPage = () => {
                     <span className="text-orange-500 mr-2">•</span>
                     <span>Home Science</span>
                   </div>
-                  <div className="flex items-start">
-                    <span className="text-orange-500 mr-2">•</span>
-                    <span>Hindi Literature</span>
-                  </div>
+                 
                   <div className="flex items-start">
                     <span className="text-orange-500 mr-2">•</span>
                     <span>English Literature</span>
+                  </div>
+                  <div className="flex items-start">
+                    <span className="text-orange-500 mr-2">•</span>
+                    <span>Hindi Literature</span>
                   </div>
                   <div className="flex items-start">
                     <span className="text-orange-500 mr-2">•</span>
@@ -125,8 +126,9 @@ const CoursesPage = () => {
                   </div>
                   <div className="flex items-start">
                     <span className="text-orange-500 mr-2">•</span>
-                    <span>History</span>
+                    <span>Education</span>
                   </div>
+                 
                   <div className="flex items-start">
                     <span className="text-orange-500 mr-2">•</span>
                     <span>Sociology</span>
