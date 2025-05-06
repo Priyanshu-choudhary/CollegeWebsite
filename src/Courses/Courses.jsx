@@ -107,6 +107,10 @@ const CoursesPage = () => {
               <div className="mb-6">
                 <h4 className="font-semibold text-gray-800 mb-3">Core Subjects:</h4>
                 <div className="grid grid-cols-1 gap-2 text-sm">
+                <div className="flex items-start">
+                    <span className="text-orange-500 mr-2">•</span>
+                    <span>Home Science</span>
+                  </div>
                   <div className="flex items-start">
                     <span className="text-orange-500 mr-2">•</span>
                     <span>Hindi Literature</span>
@@ -129,12 +133,9 @@ const CoursesPage = () => {
                   </div>
                   <div className="flex items-start">
                     <span className="text-orange-500 mr-2">•</span>
-                    <span>Sociology</span>
+                    <span>Drawing and Painting</span>
                   </div>
-                  <div className="flex items-start">
-                    <span className="text-orange-500 mr-2">•</span>
-                    <span>Home Science</span>
-                  </div>
+                  
                   
                 </div>
               </div>
