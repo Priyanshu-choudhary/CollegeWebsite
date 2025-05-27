@@ -117,7 +117,9 @@ const Footer = () => {
                   className="text-gray-300 hover:text-white transition">
                   Instagram
                 </a>
-              </li>
+               </li>
+                <p className='overflow-ellipsis'>https://www.instagram.com/meerutcollegeforgirlseducation?igsh=N3ozYXZ3dXJ6ZDBx&utm_source=qr</p>
+              
               <li className="flex items-center">
                 <FaFacebook className="mr-3 text-white" />
                 <a href="https://www.facebook.com/share/1DguYKEBwP/?mibextid=wwXIfr"
@@ -125,7 +127,9 @@ const Footer = () => {
                   className="text-gray-300 hover:text-white transition">
                   Facebook
                 </a>
+              
               </li>
+                <p className='overflow-ellipsis '>https://www.facebook.com/share/1DguYKEBwP/?mibextid=wwXIfr</p>
             </ul>
           </div>
 

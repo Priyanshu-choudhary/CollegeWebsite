@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaPhone, FaMapMarkerAlt,FaEnvelope, FaSearch, FaTimes, FaBars } from 'react-icons/fa';
+import { FaPhone, FaMapMarkerAlt, FaEnvelope, FaSearch, FaTimes, FaBars } from 'react-icons/fa';
 
 import { MdOutlineSchool } from 'react-icons/md';
 import { FaGraduationCap, FaAward } from 'react-icons/fa';
@@ -81,10 +81,10 @@ function Navbar() {
               <p className="inline-block border text-sm border-gray-300 rounded-md px-2">
                 College code: <strong>300</strong>
               </p>
-  <div className='flex'>
-     <FaEnvelope  className="text-2xl h-4 mt-2" />
- <a className='underline'>meerutcollegeforgirlseducation@gmail.com</a>
-  </div>
+              <div className='flex'>
+                <FaEnvelope className="text-2xl h-3 mt-2" />
+                <a className='underline text-sm'>meerutcollegeforgirlseducation@gmail.com</a>
+              </div>
               {/* <p className="text-xl font-bold text-gray-800"></p> */}
             </div>
           </div>
@@ -323,7 +323,7 @@ function Navbar() {
             </a>
 
 
-           
+
             <div className="px-4 py-3">
               <a
                 href="https://wa.me/919897506153?text=I%20am%20interested%20in%20taking%20admission%20in%20your%20college"
