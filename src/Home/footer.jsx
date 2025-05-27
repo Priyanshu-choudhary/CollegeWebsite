@@ -53,7 +53,7 @@ const Footer = () => {
     </a>
   </div>
   <div className='mt-5'>
-    <p>   Ask your query at&nbsp;</p>
+    <p>   Ask your query at:</p>
   <a className='underline'>meerutcollegeforgirlseducation@gmail.com</a>
   </div>
 </div>
