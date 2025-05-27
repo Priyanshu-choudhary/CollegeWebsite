@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div className="bg-white shadow-md">
       {/* Top Info Bar - Optimized for Mobile & Desktop */}
-      <div className="bg-orange-600 text-white text-xs sm:text-sm py-2 px-2 sm:px-4 border-b border-orange-700">
+      <div className="bg-orange-600 text-white text-xs sm:text-sm pt-2 px-2 sm:px-4 border-b border-orange-700">
         <div className="container mx-auto">
           {/* Mobile Layout (stacked) */}
           <div className="sm:hidden flex flex-col gap-2">
@@ -65,7 +65,14 @@ function Navbar() {
                 +91-9897506153
               </a>
             </div>
+
+            
           </div>
+          <div className='flex justify-end'>
+              <FaEnvelope className="text-2xl h-3 mt-2" />
+              <a  href='mailto:meerutcollegeforgirlseducation@gmail.com'className=' text-sm'>meerutcollegeforgirlseducation@gmail.com</a>
+
+            </div>
         </div>
       </div>
 
@@ -81,10 +88,7 @@ function Navbar() {
               <p className="inline-block border text-sm border-gray-300 rounded-md px-2">
                 College code: <strong>300</strong>
               </p>
-              <div className='flex'>
-                <FaEnvelope className="text-2xl h-3 mt-2" />
-                <a className='underline text-sm'>meerutcollegeforgirlseducation@gmail.com</a>
-              </div>
+
               {/* <p className="text-xl font-bold text-gray-800"></p> */}
             </div>
           </div>
