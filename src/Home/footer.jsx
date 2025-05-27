@@ -35,28 +35,28 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* College Info */}
-<div className="mb-6">
-  <h3 className="text-xl font-bold mb-4 border-b border-orange-400 pb-2">Meerut College For Girls Education</h3>
-  <p className="mb-4 text-gray-300">
-    A premier institution dedicated to women's education and empowerment in Meerut, Uttar Pradesh.
-  </p>
-  <p className='border-1 rounded-md px-2 py-1 mb-2'> College code:300</p>
-  <div className="flex space-x-4 items-center">
-    <a href="https://www.facebook.com/share/1DguYKEBwP/?mibextid=wwXIfr" className="text-gray-300 hover:text-white transition">
-      <FaFacebook className="text-2xl" />
-    </a>
-    <a href="https://www.instagram.com/meerutcollegeforgirlseducation?igsh=N3ozYXZ3dXJ6ZDBx&utm_source=qr" className="text-gray-300 hover:text-white transition">
-      <FaInstagram className="text-2xl" />
-    </a>
-    <a href="mailto:meerutcollegeforgirlseducation@gmail.com" className="text-gray-300 hover:text-white transition flex items-center">
-      <FaEnvelope className="text-2xl" />
-    </a>
-  </div>
-  <div className='mt-5'>
-    <p>   Ask your query at:</p>
-  <a className='underline'>meerutcollegeforgirlseducation@gmail.com</a>
-  </div>
-</div>
+          <div className="mb-6">
+            <h3 className="text-xl font-bold mb-4 border-b border-orange-400 pb-2">Meerut College For Girls Education</h3>
+            <p className="mb-4 text-gray-300">
+              A premier institution dedicated to women's education and empowerment in Meerut, Uttar Pradesh.
+            </p>
+            <p className='border-1 rounded-md px-2 py-1 mb-2'> College code:300</p>
+            <div className="flex space-x-4 items-center">
+              <a href="https://www.facebook.com/share/1DguYKEBwP/?mibextid=wwXIfr" className="text-gray-300 hover:text-white transition">
+                <FaFacebook className="text-2xl" />
+              </a>
+              <a href="https://www.instagram.com/meerutcollegeforgirlseducation?igsh=N3ozYXZ3dXJ6ZDBx&utm_source=qr" className="text-gray-300 hover:text-white transition">
+                <FaInstagram className="text-2xl" />
+              </a>
+              <a href="mailto:meerutcollegeforgirlseducation@gmail.com" className="text-gray-300 hover:text-white transition flex items-center">
+                <FaEnvelope className="text-2xl" />
+              </a>
+            </div>
+            <div className='mt-5'>
+              <p>   Ask your query at:</p>
+              <a className='underline'>meerutcollegeforgirlseducation@gmail.com</a>
+            </div>
+          </div>
 
           {/* Quick Links */}
           <div className="mb-6">

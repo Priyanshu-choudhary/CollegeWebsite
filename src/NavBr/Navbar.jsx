@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { FaPhone, FaMapMarkerAlt, FaSearch, FaTimes, FaBars } from 'react-icons/fa';
+import { FaPhone, FaMapMarkerAlt,FaEnvelope, FaSearch, FaTimes, FaBars } from 'react-icons/fa';
+
 import { MdOutlineSchool } from 'react-icons/md';
 import { FaGraduationCap, FaAward } from 'react-icons/fa';
 import { MdOutlineLibraryBooks } from 'react-icons/md';
@@ -77,10 +78,13 @@ function Navbar() {
             <img className="mr-2" src="logoCLG.jpg" alt="logo" style={{ height: 35 }} />
             <div>
               <h1 className="text-xl font-bold text-gray-800">Meerut College For Girls Education</h1>
-              <p className="inline-block border text-sm border-gray-300 rounded-md px-2 py-1 mb-2">
+              <p className="inline-block border text-sm border-gray-300 rounded-md px-2">
                 College code: <strong>300</strong>
               </p>
-
+  <div className='flex'>
+     <FaEnvelope  className="text-2xl h-4 mt-2" />
+ <a className='underline'>meerutcollegeforgirlseducation@gmail.com</a>
+  </div>
               {/* <p className="text-xl font-bold text-gray-800"></p> */}
             </div>
           </div>
