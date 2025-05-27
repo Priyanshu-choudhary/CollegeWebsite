@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div className="bg-white shadow-md">
       {/* Top Info Bar - Optimized for Mobile & Desktop */}
-      <div className="bg-orange-600 text-white text-xs sm:text-sm pt-2 px-2 sm:px-4 border-b border-orange-700">
+      <div className="bg-orange-600 text-white text-xs sm:text-sm pt-2 sm:px-4 border-b border-orange-700">
         <div className="container mx-auto">
           {/* Mobile Layout (stacked) */}
           <div className="sm:hidden flex flex-col gap-2">
