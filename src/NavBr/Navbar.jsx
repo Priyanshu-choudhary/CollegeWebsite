@@ -70,7 +70,7 @@ function Navbar() {
           </div>
         
         </div>
-          <div className='flex justify-end mr-5 '>
+          <div className='flex justify-end mr-5 md:mr-10 '>
               <FaEnvelope className="text-2xl h-3 mt-1" />
               <a  href='mailto:meerutcollegeforgirlseducation@gmail.com'className=' text-sm'>meerutcollegeforgirlseducation@gmail.com</a>
 
