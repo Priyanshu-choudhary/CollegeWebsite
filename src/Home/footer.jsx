@@ -118,9 +118,9 @@ const Footer = () => {
                   Instagram
                 </a>
               </li>
-              <p className="line-clamp-2 text-sm break-all">
-                https://www.instagram.com/meerutcollegeforgirlseducation?igsh=N3ozYXZ3dXJ6ZDBx&utm_source=qr
-              </p>
+              <a  href="https://www.instagram.com/meerutcollegeforgirlseducation?igsh=N3ozYXZ3dXJ6ZDBx&utm_source=qr" className="line-clamp-2 text-sm break-all">
+                https://www.instagram.com/meerutcollegeforgirlseducation?igsh=N3
+              </a>
               <li className="flex items-center">
                 <FaFacebook className="mr-3 text-white" />
                 <a href="https://www.facebook.com/share/1DguYKEBwP/?mibextid=wwXIfr"
@@ -130,9 +130,9 @@ const Footer = () => {
                 </a>
 
               </li>
-              <p className="line-clamp-2 text-sm break-all">
-                https://www.facebook.com/share/1DguYKEBwP/?mibextid=wwXIfr
-              </p>
+              <a href="https://www.facebook.com/share/1DguYKEBwP/?mibextid=wwXIfr" className="line-clamp-2 text-sm break-all">
+                https://www.facebook.com/share/1DguYKEBwP
+              </a>
               {/* <p className='overflow-ellipsis '></p> */}
             </ul>
           </div>
