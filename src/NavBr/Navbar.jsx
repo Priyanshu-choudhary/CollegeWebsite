@@ -14,7 +14,7 @@ function Navbar() {
     <div className="bg-white shadow-md">
       {/* Top Info Bar - Optimized for Mobile & Desktop */}
       <div className="bg-orange-600 text-white text-xs sm:text-sm pt-2  border-b border-orange-700">
-        <div className="container mx-2">
+        <div className="container mx-auto">
           {/* Mobile Layout (stacked) */}
           <div className="sm:hidden flex flex-col gap-2">
             {/* Address Row */}
@@ -68,12 +68,13 @@ function Navbar() {
 
             
           </div>
-          <div className='flex justify-end'>
-              <FaEnvelope className="text-2xl h-3 mt-2" />
+        
+        </div>
+          <div className='flex justify-end mr-5 '>
+              <FaEnvelope className="text-2xl h-3 mt-1" />
               <a  href='mailto:meerutcollegeforgirlseducation@gmail.com'className=' text-sm'>meerutcollegeforgirlseducation@gmail.com</a>
 
             </div>
-        </div>
       </div>
 
 
