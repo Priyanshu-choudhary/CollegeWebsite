@@ -73,11 +73,12 @@ export default function Home() {
     }, [currentIndex]);
 
     const stats = [
-        { id: 1, name: 'Students Enrolled', value: '1000+' },
-        { id: 2, name: 'Expert Faculty Members', value: '25+' },
+        { id: 1, name: 'Students Enrolled', value: '2500+' },
+        
         { id: 3, name: 'Courses Offered', value: '5+' },
-        { id: 4, name: 'Placement Rate', value: '90%' },
-        { id: 5, name: 'Years of Excellence', value: '10+' },
+        { id: 4, name: 'Batch Size', value: '350' },
+         { id: 5, name: 'Placement Rate', value: '90%' },
+        { id: 6, name: 'Years of Excellence', value: '10+' },
     ];
 
     const features = [
